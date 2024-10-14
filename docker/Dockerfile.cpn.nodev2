@@ -1,0 +1,28 @@
+FROM ubuntu:focal
+
+# 设置为中国国内源
+RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+RUN sed -i 's/security.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+
+# Install dependencies required for Containernet.
+RUN apt-get update && apt-get install -y \
+    net-tools \
+    iputils-ping \
+    iproute2 \
+    curl\
+    python3-pip
+    # mkdir locust/stats_output 
+
+RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+# Use a virtual environment to avoid running pip as root
+# ENV VIRTUAL_ENV=/opt/venv
+# RUN python3 -m venv $VIRTUAL_ENV
+# ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+
+RUN pip install --upgrade pip
+RUN pip install locust
+
+WORKDIR /locust
+# COPY /home/wwz/ryu/ryu/app/network_awareness/locust/locust_cpn_test.py /locust
+COPY locust_cpn_test.py /locust
+

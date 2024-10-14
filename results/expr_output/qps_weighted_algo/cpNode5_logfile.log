@@ -1,0 +1,1640 @@
+2024-10-10 05:46:32,386 - WARNING - Python 3.8 support is deprecated and will be removed soon
+2024-10-10 05:46:32,485 - INFO - Run time limit set to 240 seconds
+2024-10-10 05:46:32,485 - INFO - Starting Locust 2.25.0
+2024-10-10 05:46:32,584 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:32,585 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:32,585 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:32,585 - INFO -          Aggregated                                                                         0     0(0.00%) |      0       0       0      0 |    0.00        0.00
+2024-10-10 05:46:32,585 - INFO - 
+2024-10-10 05:46:32,586 - INFO - Ramping to 40 users at a rate of 20.00 per second
+2024-10-10 05:46:33,984 - INFO - All users spawned: {"PrimeNumberTestUser": 40} (40 total users)
+2024-10-10 05:46:34,586 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:34,586 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:34,586 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:34,586 - INFO -          Aggregated                                                                         0     0(0.00%) |      0       0       0      0 |    0.00        0.00
+2024-10-10 05:46:34,586 - INFO - 
+2024-10-10 05:46:35,135 - INFO - Request /primes?limit=800 succeeded in 2350.30ms
+2024-10-10 05:46:35,915 - INFO - Request /primes?limit=800 succeeded in 3029.79ms
+2024-10-10 05:46:35,924 - INFO - Request /primes?limit=800 succeeded in 3037.93ms
+2024-10-10 05:46:35,974 - INFO - Request /primes?limit=800 succeeded in 2988.43ms
+2024-10-10 05:46:36,068 - INFO - Request /primes?limit=800 succeeded in 3083.33ms
+2024-10-10 05:46:36,166 - INFO - Request /primes?limit=800 succeeded in 3182.38ms
+2024-10-10 05:46:36,175 - INFO - Request /primes?limit=800 succeeded in 3288.65ms
+2024-10-10 05:46:36,269 - INFO - Request /primes?limit=800 succeeded in 3385.59ms
+2024-10-10 05:46:36,278 - INFO - Request /primes?limit=800 succeeded in 3393.37ms
+2024-10-10 05:46:36,372 - INFO - Request /primes?limit=800 succeeded in 3384.58ms
+2024-10-10 05:46:36,470 - INFO - Request /primes?limit=800 succeeded in 3483.15ms
+2024-10-10 05:46:36,479 - INFO - Request /primes?limit=800 succeeded in 3493.05ms
+2024-10-10 05:46:36,573 - INFO - Request /primes?limit=800 succeeded in 3487.64ms
+2024-10-10 05:46:36,587 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:36,587 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:36,587 - INFO - GET      /primes?limit=800                                                                 13     1(7.69%) |   3199    2350    3493   3300 |    0.00        0.00
+2024-10-10 05:46:36,587 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:36,587 - INFO -          Aggregated                                                                        13     1(7.69%) |   3199    2350    3493   3300 |    0.00        0.00
+2024-10-10 05:46:36,587 - INFO - 
+2024-10-10 05:46:36,667 - INFO - Request /primes?limit=800 succeeded in 3582.18ms
+2024-10-10 05:46:36,676 - INFO - Request /primes?limit=800 succeeded in 2591.78ms
+2024-10-10 05:46:36,770 - INFO - Request /primes?limit=800 succeeded in 2782.76ms
+2024-10-10 05:46:36,867 - INFO - Request /primes?limit=800 succeeded in 2881.50ms
+2024-10-10 05:46:36,877 - INFO - Request /primes?limit=800 succeeded in 2690.71ms
+2024-10-10 05:46:36,971 - INFO - Request /primes?limit=800 succeeded in 2785.38ms
+2024-10-10 05:46:36,980 - INFO - Request /primes?limit=800 succeeded in 2795.50ms
+2024-10-10 05:46:37,075 - INFO - Request /primes?limit=800 succeeded in 2987.91ms
+2024-10-10 05:46:37,170 - INFO - Request /primes?limit=800 succeeded in 3083.24ms
+2024-10-10 05:46:37,180 - INFO - Request /primes?limit=800 succeeded in 3094.19ms
+2024-10-10 05:46:37,276 - INFO - Request /primes?limit=800 succeeded in 3190.35ms
+2024-10-10 05:46:37,370 - INFO - Request /primes?limit=800 succeeded in 3285.55ms
+2024-10-10 05:46:37,380 - INFO - Request /primes?limit=800 succeeded in 3090.35ms
+2024-10-10 05:46:37,476 - INFO - Request /primes?limit=800 succeeded in 3187.87ms
+2024-10-10 05:46:37,570 - INFO - Request /primes?limit=800 succeeded in 3282.59ms
+2024-10-10 05:46:37,668 - INFO - Request /primes?limit=800 succeeded in 3381.10ms
+2024-10-10 05:46:37,677 - INFO - Request /primes?limit=800 succeeded in 3391.04ms
+2024-10-10 05:46:37,772 - INFO - Request /primes?limit=800 succeeded in 3486.89ms
+2024-10-10 05:46:37,782 - INFO - Request /primes?limit=800 succeeded in 3496.96ms
+2024-10-10 05:46:37,872 - INFO - Request /primes?limit=800 succeeded in 3684.20ms
+2024-10-10 05:46:37,969 - INFO - Request /primes?limit=800 succeeded in 3782.82ms
+2024-10-10 05:46:37,979 - INFO - Request /primes?limit=800 succeeded in 5387.44ms
+2024-10-10 05:46:38,072 - INFO - Request /primes?limit=800 succeeded in 5385.68ms
+2024-10-10 05:46:38,166 - INFO - Request /primes?limit=800 succeeded in 5381.90ms
+2024-10-10 05:46:38,175 - INFO - Request /primes?limit=800 succeeded in 5389.66ms
+2024-10-10 05:46:38,269 - INFO - Request /primes?limit=800 succeeded in 5482.95ms
+2024-10-10 05:46:38,278 - INFO - Request /primes?limit=800 succeeded in 5491.41ms
+2024-10-10 05:46:38,588 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:38,588 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:38,588 - INFO - GET      /primes?limit=800                                                                 40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:38,588 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:38,588 - INFO -          Aggregated                                                                        40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:38,589 - INFO - 
+2024-10-10 05:46:40,590 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:40,591 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:40,591 - INFO - GET      /primes?limit=800                                                                 40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:40,591 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:40,591 - INFO -          Aggregated                                                                        40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:40,591 - INFO - 
+2024-10-10 05:46:42,886 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:42,886 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:42,886 - INFO - GET      /primes?limit=800                                                                 40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:42,886 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:42,886 - INFO -          Aggregated                                                                        40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:42,886 - INFO - 
+2024-10-10 05:46:44,887 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:44,887 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:44,887 - INFO - GET      /primes?limit=800                                                                 40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:44,888 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:44,888 - INFO -          Aggregated                                                                        40     1(2.50%) |   3516    2350    5491   3300 |    1.00        0.25
+2024-10-10 05:46:44,888 - INFO - 
+2024-10-10 05:46:45,214 - INFO - Request /primes?limit=800 succeeded in 2627.32ms
+2024-10-10 05:46:45,224 - INFO - Request /primes?limit=800 succeeded in 2633.75ms
+2024-10-10 05:46:45,232 - INFO - Request /primes?limit=800 succeeded in 2643.98ms
+2024-10-10 05:46:45,309 - INFO - Request /primes?limit=800 succeeded in 2623.44ms
+2024-10-10 05:46:45,319 - INFO - Request /primes?limit=800 succeeded in 2634.03ms
+2024-10-10 05:46:45,328 - INFO - Request /primes?limit=800 succeeded in 2644.06ms
+2024-10-10 05:46:45,409 - INFO - Request /primes?limit=800 succeeded in 2820.24ms
+2024-10-10 05:46:45,419 - INFO - Request /primes?limit=800 succeeded in 2828.28ms
+2024-10-10 05:46:45,428 - INFO - Request /primes?limit=800 succeeded in 2543.65ms
+2024-10-10 05:46:45,513 - INFO - Request /primes?limit=800 succeeded in 2629.82ms
+2024-10-10 05:46:45,522 - INFO - Request /primes?limit=800 succeeded in 2735.35ms
+2024-10-10 05:46:45,531 - INFO - Request /primes?limit=800 succeeded in 2744.56ms
+2024-10-10 05:46:45,539 - INFO - Request /primes?limit=800 succeeded in 2754.84ms
+2024-10-10 05:46:45,617 - INFO - Request /primes?limit=800 succeeded in 2925.65ms
+2024-10-10 05:46:45,626 - INFO - Request /primes?limit=800 succeeded in 2935.76ms
+2024-10-10 05:46:45,636 - INFO - Request /primes?limit=800 succeeded in 2945.82ms
+2024-10-10 05:46:45,717 - INFO - Request /primes?limit=800 succeeded in 3028.38ms
+2024-10-10 05:46:45,727 - INFO - Request /primes?limit=800 succeeded in 3038.71ms
+2024-10-10 05:46:45,809 - INFO - Request /primes?limit=800 succeeded in 3121.14ms
+2024-10-10 05:46:45,820 - INFO - Request /primes?limit=800 succeeded in 3132.92ms
+2024-10-10 05:46:45,830 - INFO - Request /primes?limit=800 succeeded in 2042.21ms
+2024-10-10 05:46:45,912 - INFO - Request /primes?limit=800 succeeded in 2125.12ms
+2024-10-10 05:46:45,922 - INFO - Request /primes?limit=800 succeeded in 2136.52ms
+2024-10-10 05:46:45,931 - INFO - Request /primes?limit=800 succeeded in 2142.64ms
+2024-10-10 05:46:46,013 - INFO - Request /primes?limit=800 succeeded in 2224.23ms
+2024-10-10 05:46:46,023 - INFO - Request /primes?limit=800 succeeded in 2231.59ms
+2024-10-10 05:46:46,032 - INFO - Request /primes?limit=800 succeeded in 2241.47ms
+2024-10-10 05:46:46,109 - INFO - Request /primes?limit=800 succeeded in 2121.41ms
+2024-10-10 05:46:46,120 - INFO - Request /primes?limit=800 succeeded in 2133.37ms
+2024-10-10 05:46:46,130 - INFO - Request /primes?limit=800 succeeded in 2143.43ms
+2024-10-10 05:46:46,212 - INFO - Request /primes?limit=800 succeeded in 2226.10ms
+2024-10-10 05:46:46,221 - INFO - Request /primes?limit=800 succeeded in 2236.42ms
+2024-10-10 05:46:46,230 - INFO - Request /primes?limit=800 succeeded in 2143.44ms
+2024-10-10 05:46:46,312 - INFO - Request /primes?limit=800 succeeded in 2226.31ms
+2024-10-10 05:46:46,322 - INFO - Request /primes?limit=800 succeeded in 2238.01ms
+2024-10-10 05:46:46,331 - INFO - Request /primes?limit=800 succeeded in 2339.69ms
+2024-10-10 05:46:46,412 - INFO - Request /primes?limit=800 succeeded in 2421.88ms
+2024-10-10 05:46:46,422 - INFO - Request /primes?limit=800 succeeded in 2432.12ms
+2024-10-10 05:46:46,431 - INFO - Request /primes?limit=800 succeeded in 2442.08ms
+2024-10-10 05:46:46,509 - INFO - Request /primes?limit=800 succeeded in 2520.30ms
+2024-10-10 05:46:46,889 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:46,889 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:46,889 - INFO - GET      /primes?limit=800                                                                 80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:46,889 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:46,889 - INFO -          Aggregated                                                                        80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:46,889 - INFO - 
+2024-10-10 05:46:48,891 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:48,891 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:48,891 - INFO - GET      /primes?limit=800                                                                 80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:48,891 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:48,891 - INFO -          Aggregated                                                                        80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:48,892 - INFO - 
+2024-10-10 05:46:50,893 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:50,894 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:50,894 - INFO - GET      /primes?limit=800                                                                 80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:50,894 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:50,894 - INFO -          Aggregated                                                                        80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:50,894 - INFO - 
+2024-10-10 05:46:53,187 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:53,187 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:53,187 - INFO - GET      /primes?limit=800                                                                 80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:53,187 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:53,187 - INFO -          Aggregated                                                                        80     1(1.25%) |   3017    2042    5491   2900 |    4.00        0.10
+2024-10-10 05:46:53,187 - INFO - 
+2024-10-10 05:46:54,832 - INFO - Request /primes?limit=800 succeeded in 1846.85ms
+2024-10-10 05:46:54,834 - INFO - Request /primes?limit=800 succeeded in 2150.03ms
+2024-10-10 05:46:54,835 - INFO - Request /primes?limit=800 succeeded in 2239.81ms
+2024-10-10 05:46:54,884 - INFO - Request /primes?limit=800 succeeded in 2098.58ms
+2024-10-10 05:46:54,884 - INFO - Request /primes?limit=800 succeeded in 2098.37ms
+2024-10-10 05:46:54,886 - INFO - Request /primes?limit=800 succeeded in 2098.78ms
+2024-10-10 05:46:54,886 - INFO - Request /primes?limit=800 succeeded in 2000.89ms
+2024-10-10 05:46:54,887 - INFO - Request /primes?limit=800 succeeded in 2000.58ms
+2024-10-10 05:46:54,887 - INFO - Request /primes?limit=800 succeeded in 2000.37ms
+2024-10-10 05:46:54,888 - INFO - Request /primes?limit=800 succeeded in 1903.94ms
+2024-10-10 05:46:54,888 - INFO - Request /primes?limit=800 succeeded in 1903.48ms
+2024-10-10 05:46:54,987 - INFO - Request /primes?limit=800 succeeded in 2393.93ms
+2024-10-10 05:46:54,987 - INFO - Request /primes?limit=800 succeeded in 2393.37ms
+2024-10-10 05:46:54,987 - INFO - Request /primes?limit=800 succeeded in 2392.89ms
+2024-10-10 05:46:55,086 - INFO - Request /primes?limit=800 succeeded in 2494.50ms
+2024-10-10 05:46:55,086 - INFO - Request /primes?limit=800 succeeded in 2493.92ms
+2024-10-10 05:46:55,171 - INFO - Request /primes?limit=800 succeeded in 2580.15ms
+2024-10-10 05:46:55,185 - INFO - Request /primes?limit=800 succeeded in 2595.09ms
+2024-10-10 05:46:55,188 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:55,188 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:55,189 - INFO - GET      /primes?limit=800                                                                 98   12(12.24%) |   2868    1846    5491   2700 |    4.00        0.00
+2024-10-10 05:46:55,189 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:55,189 - INFO -          Aggregated                                                                        98   12(12.24%) |   2868    1846    5491   2700 |    4.00        0.00
+2024-10-10 05:46:55,189 - INFO - 
+2024-10-10 05:46:55,274 - INFO - Request /primes?limit=800 succeeded in 2685.93ms
+2024-10-10 05:46:55,293 - INFO - Request /primes?limit=800 succeeded in 1507.35ms
+2024-10-10 05:46:55,371 - INFO - Request /primes?limit=800 succeeded in 2783.18ms
+2024-10-10 05:46:55,493 - INFO - Request /primes?limit=800 succeeded in 1706.01ms
+2024-10-10 05:46:57,190 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:57,190 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:57,190 - INFO - GET      /primes?limit=800                                                                102   14(13.73%) |   2840    1507    5491   2700 |    4.00        0.00
+2024-10-10 05:46:57,191 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:57,191 - INFO -          Aggregated                                                                       102   14(13.73%) |   2840    1507    5491   2700 |    4.00        0.00
+2024-10-10 05:46:57,191 - INFO - 
+2024-10-10 05:46:57,518 - INFO - Request /primes?limit=800 succeeded in 3727.68ms
+2024-10-10 05:46:57,528 - INFO - Request /primes?limit=800 succeeded in 3737.38ms
+2024-10-10 05:46:57,609 - INFO - Request /primes?limit=800 succeeded in 3819.24ms
+2024-10-10 05:46:57,618 - INFO - Request /primes?limit=800 succeeded in 3829.44ms
+2024-10-10 05:46:57,628 - INFO - Request /primes?limit=800 succeeded in 3839.65ms
+2024-10-10 05:46:57,919 - INFO - Request /primes?limit=800 succeeded in 3827.53ms
+2024-10-10 05:46:57,927 - INFO - Request /primes?limit=800 succeeded in 3836.74ms
+2024-10-10 05:46:57,936 - INFO - Request /primes?limit=800 succeeded in 3846.07ms
+2024-10-10 05:46:58,014 - INFO - Request /primes?limit=800 succeeded in 3924.41ms
+2024-10-10 05:46:58,023 - INFO - Request /primes?limit=800 succeeded in 3934.39ms
+2024-10-10 05:46:58,032 - INFO - Request /primes?limit=800 succeeded in 3944.48ms
+2024-10-10 05:46:58,114 - INFO - Request /primes?limit=800 succeeded in 4026.86ms
+2024-10-10 05:46:58,122 - INFO - Request /primes?limit=800 succeeded in 4135.82ms
+2024-10-10 05:46:58,131 - INFO - Request /primes?limit=800 succeeded in 4145.18ms
+2024-10-10 05:46:58,212 - INFO - Request /primes?limit=800 succeeded in 4227.41ms
+2024-10-10 05:46:58,222 - INFO - Request /primes?limit=800 succeeded in 4238.03ms
+2024-10-10 05:46:58,231 - INFO - Request /primes?limit=800 succeeded in 4343.95ms
+2024-10-10 05:46:58,312 - INFO - Request /primes?limit=800 succeeded in 4426.23ms
+2024-10-10 05:46:59,192 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:46:59,192 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:59,192 - INFO - GET      /primes?limit=800                                                                120   14(11.67%) |   3013    1507    5491   2800 |    3.80        1.30
+2024-10-10 05:46:59,192 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:46:59,192 - INFO -          Aggregated                                                                       120   14(11.67%) |   3013    1507    5491   2800 |    3.80        1.30
+2024-10-10 05:46:59,192 - INFO - 
+2024-10-10 05:47:01,194 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:01,194 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:01,194 - INFO - GET      /primes?limit=800                                                                120   14(11.67%) |   3013    1507    5491   2800 |    3.80        1.30
+2024-10-10 05:47:01,194 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:01,194 - INFO -          Aggregated                                                                       120   14(11.67%) |   3013    1507    5491   2800 |    3.80        1.30
+2024-10-10 05:47:01,194 - INFO - 
+2024-10-10 05:47:03,285 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:03,285 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:03,285 - INFO - GET      /primes?limit=800                                                                120   14(11.67%) |   3013    1507    5491   2800 |    3.80        1.30
+2024-10-10 05:47:03,285 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:03,285 - INFO -          Aggregated                                                                       120   14(11.67%) |   3013    1507    5491   2800 |    3.80        1.30
+2024-10-10 05:47:03,285 - INFO - 
+2024-10-10 05:47:04,624 - INFO - Request /primes?limit=800 succeeded in 2029.80ms
+2024-10-10 05:47:04,634 - INFO - Request /primes?limit=800 succeeded in 2044.70ms
+2024-10-10 05:47:04,710 - INFO - Request /primes?limit=800 succeeded in 2121.41ms
+2024-10-10 05:47:04,719 - INFO - Request /primes?limit=800 succeeded in 2131.31ms
+2024-10-10 05:47:04,728 - INFO - Request /primes?limit=800 succeeded in 2040.60ms
+2024-10-10 05:47:04,808 - INFO - Request /primes?limit=800 succeeded in 2122.28ms
+2024-10-10 05:47:04,818 - INFO - Request /primes?limit=800 succeeded in 2132.76ms
+2024-10-10 05:47:04,827 - INFO - Request /primes?limit=800 succeeded in 2142.90ms
+2024-10-10 05:47:04,909 - INFO - Request /primes?limit=800 succeeded in 2313.71ms
+2024-10-10 05:47:04,918 - INFO - Request /primes?limit=800 succeeded in 2327.20ms
+2024-10-10 05:47:04,927 - INFO - Request /primes?limit=800 succeeded in 2336.98ms
+2024-10-10 05:47:05,009 - INFO - Request /primes?limit=800 succeeded in 2224.37ms
+2024-10-10 05:47:05,018 - INFO - Request /primes?limit=800 succeeded in 1933.76ms
+2024-10-10 05:47:05,027 - INFO - Request /primes?limit=800 succeeded in 1941.42ms
+2024-10-10 05:47:05,036 - INFO - Request /primes?limit=800 succeeded in 2048.53ms
+2024-10-10 05:47:05,117 - INFO - Request /primes?limit=800 succeeded in 2130.99ms
+2024-10-10 05:47:05,126 - INFO - Request /primes?limit=800 succeeded in 2531.91ms
+2024-10-10 05:47:05,134 - INFO - Request /primes?limit=800 succeeded in 2541.17ms
+2024-10-10 05:47:05,216 - INFO - Request /primes?limit=800 succeeded in 2623.62ms
+2024-10-10 05:47:05,225 - INFO - Request /primes?limit=800 succeeded in 2633.57ms
+2024-10-10 05:47:05,286 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:05,286 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:05,286 - INFO - GET      /primes?limit=800                                                                140   14(10.00%) |   2899    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:05,286 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:05,286 - INFO -          Aggregated                                                                       140   14(10.00%) |   2899    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:05,286 - INFO - 
+2024-10-10 05:47:05,617 - INFO - Request /primes?limit=800 succeeded in 1830.59ms
+2024-10-10 05:47:05,625 - INFO - Request /primes?limit=800 succeeded in 1838.17ms
+2024-10-10 05:47:05,634 - INFO - Request /primes?limit=800 succeeded in 1844.81ms
+2024-10-10 05:47:05,716 - INFO - Request /primes?limit=800 succeeded in 1923.39ms
+2024-10-10 05:47:05,724 - INFO - Request /primes?limit=800 succeeded in 1932.97ms
+2024-10-10 05:47:05,733 - INFO - Request /primes?limit=800 succeeded in 1942.36ms
+2024-10-10 05:47:05,814 - INFO - Request /primes?limit=800 succeeded in 2024.41ms
+2024-10-10 05:47:06,609 - INFO - Request /primes?limit=800 succeeded in 2625.41ms
+2024-10-10 05:47:06,618 - INFO - Request /primes?limit=800 succeeded in 2627.63ms
+2024-10-10 05:47:06,627 - INFO - Request /primes?limit=800 succeeded in 2636.88ms
+2024-10-10 05:47:06,684 - INFO - Request /primes?limit=800 succeeded in 2694.56ms
+2024-10-10 05:47:06,717 - INFO - Request /primes?limit=800 succeeded in 2728.77ms
+2024-10-10 05:47:06,726 - INFO - Request /primes?limit=800 succeeded in 2738.91ms
+2024-10-10 05:47:06,735 - INFO - Request /primes?limit=800 succeeded in 2748.67ms
+2024-10-10 05:47:06,817 - INFO - Request /primes?limit=800 succeeded in 2831.29ms
+2024-10-10 05:47:06,827 - INFO - Request /primes?limit=800 succeeded in 2841.55ms
+2024-10-10 05:47:06,836 - INFO - Request /primes?limit=800 succeeded in 2749.71ms
+2024-10-10 05:47:06,914 - INFO - Request /primes?limit=800 succeeded in 2828.14ms
+2024-10-10 05:47:06,923 - INFO - Request /primes?limit=800 succeeded in 2838.55ms
+2024-10-10 05:47:06,932 - INFO - Request /primes?limit=800 succeeded in 2940.97ms
+2024-10-10 05:47:07,287 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:07,288 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:07,288 - INFO - GET      /primes?limit=800                                                                160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:07,288 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:07,288 - INFO -          Aggregated                                                                       160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:07,288 - INFO - 
+2024-10-10 05:47:09,289 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:09,289 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:09,289 - INFO - GET      /primes?limit=800                                                                160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:09,289 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:09,289 - INFO -          Aggregated                                                                       160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:09,289 - INFO - 
+2024-10-10 05:47:11,291 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:11,291 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:11,291 - INFO - GET      /primes?limit=800                                                                160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:11,291 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:11,291 - INFO -          Aggregated                                                                       160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:11,291 - INFO - 
+2024-10-10 05:47:13,387 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:13,388 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:13,388 - INFO - GET      /primes?limit=800                                                                160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:13,388 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:13,388 - INFO -          Aggregated                                                                       160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:13,388 - INFO - 
+2024-10-10 05:47:15,389 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:15,390 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:15,390 - INFO - GET      /primes?limit=800                                                                160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:15,390 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:15,390 - INFO -          Aggregated                                                                       160    14(8.75%) |   2844    1507    5491   2600 |    4.00        1.30
+2024-10-10 05:47:15,390 - INFO - 
+2024-10-10 05:47:16,514 - INFO - Request /primes?limit=800 succeeded in 3927.16ms
+2024-10-10 05:47:16,731 - INFO - Request /primes?limit=800 succeeded in 3745.19ms
+2024-10-10 05:47:16,808 - INFO - Request /primes?limit=800 succeeded in 3823.11ms
+2024-10-10 05:47:16,817 - INFO - Request /primes?limit=800 succeeded in 3929.84ms
+2024-10-10 05:47:16,826 - INFO - Request /primes?limit=800 succeeded in 3939.88ms
+2024-10-10 05:47:16,835 - INFO - Request /primes?limit=800 succeeded in 3949.50ms
+2024-10-10 05:47:16,916 - INFO - Request /primes?limit=800 succeeded in 4129.59ms
+2024-10-10 05:47:16,925 - INFO - Request /primes?limit=800 succeeded in 4139.28ms
+2024-10-10 05:47:16,933 - INFO - Request /primes?limit=800 succeeded in 4149.06ms
+2024-10-10 05:47:17,015 - INFO - Request /primes?limit=800 succeeded in 4328.08ms
+2024-10-10 05:47:17,023 - INFO - Request /primes?limit=800 succeeded in 4338.03ms
+2024-10-10 05:47:17,032 - INFO - Request /primes?limit=800 succeeded in 4437.72ms
+2024-10-10 05:47:17,113 - INFO - Request /primes?limit=800 succeeded in 4519.62ms
+2024-10-10 05:47:17,122 - INFO - Request /primes?limit=800 succeeded in 4529.48ms
+2024-10-10 05:47:17,131 - INFO - Request /primes?limit=800 succeeded in 4538.67ms
+2024-10-10 05:47:17,212 - INFO - Request /primes?limit=800 succeeded in 4620.50ms
+2024-10-10 05:47:17,222 - INFO - Request /primes?limit=800 succeeded in 4630.72ms
+2024-10-10 05:47:17,231 - INFO - Request /primes?limit=800 succeeded in 4640.69ms
+2024-10-10 05:47:17,312 - INFO - Request /primes?limit=800 succeeded in 4723.17ms
+2024-10-10 05:47:17,322 - INFO - Request /primes?limit=800 succeeded in 4733.59ms
+2024-10-10 05:47:17,390 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:17,391 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:17,391 - INFO - GET      /primes?limit=800                                                                180    14(7.78%) |   3004    1507    5491   2800 |    2.90        0.00
+2024-10-10 05:47:17,391 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:17,391 - INFO -          Aggregated                                                                       180    14(7.78%) |   3004    1507    5491   2800 |    2.90        0.00
+2024-10-10 05:47:17,391 - INFO - 
+2024-10-10 05:47:18,012 - INFO - Request /primes?limit=800 succeeded in 4226.08ms
+2024-10-10 05:47:18,021 - INFO - Request /primes?limit=800 succeeded in 4233.87ms
+2024-10-10 05:47:18,030 - INFO - Request /primes?limit=800 succeeded in 4241.21ms
+2024-10-10 05:47:18,112 - INFO - Request /primes?limit=800 succeeded in 4323.67ms
+2024-10-10 05:47:18,121 - INFO - Request /primes?limit=800 succeeded in 4330.68ms
+2024-10-10 05:47:18,129 - INFO - Request /primes?limit=800 succeeded in 4338.38ms
+2024-10-10 05:47:18,211 - INFO - Request /primes?limit=800 succeeded in 4224.96ms
+2024-10-10 05:47:18,220 - INFO - Request /primes?limit=800 succeeded in 4235.52ms
+2024-10-10 05:47:18,229 - INFO - Request /primes?limit=800 succeeded in 4342.35ms
+2024-10-10 05:47:18,311 - INFO - Request /primes?limit=800 succeeded in 4425.43ms
+2024-10-10 05:47:18,320 - INFO - Request /primes?limit=800 succeeded in 4131.65ms
+2024-10-10 05:47:18,329 - INFO - Request /primes?limit=800 succeeded in 4141.94ms
+2024-10-10 05:47:18,411 - INFO - Request /primes?limit=800 succeeded in 4224.21ms
+2024-10-10 05:47:18,420 - INFO - Request /primes?limit=800 succeeded in 4234.81ms
+2024-10-10 05:47:18,429 - INFO - Request /primes?limit=800 succeeded in 4442.51ms
+2024-10-10 05:47:18,510 - INFO - Request /primes?limit=800 succeeded in 4224.43ms
+2024-10-10 05:47:18,520 - INFO - Request /primes?limit=800 succeeded in 4234.65ms
+2024-10-10 05:47:18,529 - INFO - Request /primes?limit=800 succeeded in 4337.76ms
+2024-10-10 05:47:18,610 - INFO - Request /primes?limit=800 succeeded in 4420.12ms
+2024-10-10 05:47:18,620 - INFO - Request /primes?limit=800 succeeded in 4430.36ms
+2024-10-10 05:47:19,393 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:19,393 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:19,393 - INFO - GET      /primes?limit=800                                                                200    14(7.00%) |   3133    1507    5491   2800 |    1.30        0.00
+2024-10-10 05:47:19,393 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:19,393 - INFO -          Aggregated                                                                       200    14(7.00%) |   3133    1507    5491   2800 |    1.30        0.00
+2024-10-10 05:47:19,393 - INFO - 
+2024-10-10 05:47:21,395 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:21,396 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:21,396 - INFO - GET      /primes?limit=800                                                                200    14(7.00%) |   3133    1507    5491   2800 |    1.30        0.00
+2024-10-10 05:47:21,396 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:21,396 - INFO -          Aggregated                                                                       200    14(7.00%) |   3133    1507    5491   2800 |    1.30        0.00
+2024-10-10 05:47:21,396 - INFO - 
+2024-10-10 05:47:23,396 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:23,397 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:23,397 - INFO - GET      /primes?limit=800                                                                200    14(7.00%) |   3133    1507    5491   2800 |    1.30        0.00
+2024-10-10 05:47:23,397 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:23,397 - INFO -          Aggregated                                                                       200    14(7.00%) |   3133    1507    5491   2800 |    1.30        0.00
+2024-10-10 05:47:23,397 - INFO - 
+2024-10-10 05:47:24,979 - INFO - Request /primes?limit=800 succeeded in 2093.43ms
+2024-10-10 05:47:25,073 - INFO - Request /primes?limit=800 succeeded in 2187.60ms
+2024-10-10 05:47:25,170 - INFO - Request /primes?limit=800 succeeded in 2286.37ms
+2024-10-10 05:47:25,180 - INFO - Request /primes?limit=800 succeeded in 2392.97ms
+2024-10-10 05:47:25,274 - INFO - Request /primes?limit=800 succeeded in 2488.53ms
+2024-10-10 05:47:25,367 - INFO - Request /primes?limit=800 succeeded in 2582.56ms
+2024-10-10 05:47:25,376 - INFO - Request /primes?limit=800 succeeded in 2688.81ms
+2024-10-10 05:47:25,397 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:25,398 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:25,398 - INFO - GET      /primes?limit=800                                                                207    14(6.76%) |   3107    1507    5491   2800 |    4.00        0.00
+2024-10-10 05:47:25,398 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:25,398 - INFO -          Aggregated                                                                       207    14(6.76%) |   3107    1507    5491   2800 |    4.00        0.00
+2024-10-10 05:47:25,398 - INFO - 
+2024-10-10 05:47:25,470 - INFO - Request /primes?limit=800 succeeded in 2783.50ms
+2024-10-10 05:47:25,480 - INFO - Request /primes?limit=800 succeeded in 2794.19ms
+2024-10-10 05:47:25,574 - INFO - Request /primes?limit=800 succeeded in 2888.72ms
+2024-10-10 05:47:25,671 - INFO - Request /primes?limit=800 succeeded in 3075.86ms
+2024-10-10 05:47:25,765 - INFO - Request /primes?limit=800 succeeded in 3170.71ms
+2024-10-10 05:47:25,775 - INFO - Request /primes?limit=800 succeeded in 3180.81ms
+2024-10-10 05:47:25,869 - INFO - Request /primes?limit=800 succeeded in 3275.35ms
+2024-10-10 05:47:25,878 - INFO - Request /primes?limit=800 succeeded in 3285.80ms
+2024-10-10 05:47:25,972 - INFO - Request /primes?limit=800 succeeded in 3380.78ms
+2024-10-10 05:47:26,066 - INFO - Request /primes?limit=800 succeeded in 3475.13ms
+2024-10-10 05:47:26,076 - INFO - Request /primes?limit=800 succeeded in 3485.70ms
+2024-10-10 05:47:26,174 - INFO - Request /primes?limit=800 succeeded in 3584.49ms
+2024-10-10 05:47:26,268 - INFO - Request /primes?limit=800 succeeded in 3679.94ms
+2024-10-10 05:47:26,880 - INFO - Request /primes?limit=800 succeeded in 3090.76ms
+2024-10-10 05:47:26,974 - INFO - Request /primes?limit=800 succeeded in 3185.16ms
+2024-10-10 05:47:27,067 - INFO - Request /primes?limit=800 succeeded in 3279.57ms
+2024-10-10 05:47:27,076 - INFO - Request /primes?limit=800 succeeded in 3289.81ms
+2024-10-10 05:47:27,170 - INFO - Request /primes?limit=800 succeeded in 3380.11ms
+2024-10-10 05:47:27,180 - INFO - Request /primes?limit=800 succeeded in 3295.16ms
+2024-10-10 05:47:27,273 - INFO - Request /primes?limit=800 succeeded in 3482.35ms
+2024-10-10 05:47:27,371 - INFO - Request /primes?limit=800 succeeded in 3479.85ms
+2024-10-10 05:47:27,380 - INFO - Request /primes?limit=800 succeeded in 3489.25ms
+2024-10-10 05:47:27,398 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:27,399 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:27,399 - INFO - GET      /primes?limit=800                                                                229    14(6.11%) |   3123    1507    5491   2900 |    4.10        0.00
+2024-10-10 05:47:27,399 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:27,399 - INFO -          Aggregated                                                                       229    14(6.11%) |   3123    1507    5491   2900 |    4.10        0.00
+2024-10-10 05:47:27,399 - INFO - 
+2024-10-10 05:47:27,473 - INFO - Request /primes?limit=800 succeeded in 3583.67ms
+2024-10-10 05:47:27,567 - INFO - Request /primes?limit=800 succeeded in 3678.25ms
+2024-10-10 05:47:27,576 - INFO - Request /primes?limit=800 succeeded in 3688.54ms
+2024-10-10 05:47:27,670 - INFO - Request /primes?limit=800 succeeded in 3583.64ms
+2024-10-10 05:47:27,680 - INFO - Request /primes?limit=800 succeeded in 3594.01ms
+2024-10-10 05:47:27,773 - INFO - Request /primes?limit=800 succeeded in 3688.83ms
+2024-10-10 05:47:27,867 - INFO - Request /primes?limit=800 succeeded in 3879.93ms
+2024-10-10 05:47:27,877 - INFO - Request /primes?limit=800 succeeded in 3890.00ms
+2024-10-10 05:47:27,970 - INFO - Request /primes?limit=800 succeeded in 3984.49ms
+2024-10-10 05:47:28,068 - INFO - Request /primes?limit=800 succeeded in 4083.21ms
+2024-10-10 05:47:28,078 - INFO - Request /primes?limit=800 succeeded in 4093.44ms
+2024-10-10 05:47:29,400 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:29,400 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:29,400 - INFO - GET      /primes?limit=800                                                                240    14(5.83%) |   3154    1507    5491   3000 |    5.60        0.00
+2024-10-10 05:47:29,400 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:29,400 - INFO -          Aggregated                                                                       240    14(5.83%) |   3154    1507    5491   3000 |    5.60        0.00
+2024-10-10 05:47:29,400 - INFO - 
+2024-10-10 05:47:31,401 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:31,401 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:31,401 - INFO - GET      /primes?limit=800                                                                240    14(5.83%) |   3154    1507    5491   3000 |    5.60        0.00
+2024-10-10 05:47:31,402 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:31,402 - INFO -          Aggregated                                                                       240    14(5.83%) |   3154    1507    5491   3000 |    5.60        0.00
+2024-10-10 05:47:31,402 - INFO - 
+2024-10-10 05:47:33,403 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:33,403 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:33,403 - INFO - GET      /primes?limit=800                                                                240    14(5.83%) |   3154    1507    5491   3000 |    5.60        0.00
+2024-10-10 05:47:33,403 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:33,403 - INFO -          Aggregated                                                                       240    14(5.83%) |   3154    1507    5491   3000 |    5.60        0.00
+2024-10-10 05:47:33,403 - INFO - 
+2024-10-10 05:47:34,384 - INFO - Request /primes?limit=800 succeeded in 1796.88ms
+2024-10-10 05:47:34,385 - INFO - Request /primes?limit=800 succeeded in 1796.36ms
+2024-10-10 05:47:34,685 - INFO - Request /primes?limit=800 succeeded in 2000.62ms
+2024-10-10 05:47:34,685 - INFO - Request /primes?limit=800 succeeded in 2000.27ms
+2024-10-10 05:47:34,686 - INFO - Request /primes?limit=800 succeeded in 2094.65ms
+2024-10-10 05:47:34,686 - INFO - Request /primes?limit=800 succeeded in 2094.10ms
+2024-10-10 05:47:34,686 - INFO - Request /primes?limit=800 succeeded in 2093.62ms
+2024-10-10 05:47:34,686 - INFO - Request /primes?limit=800 succeeded in 2093.17ms
+2024-10-10 05:47:34,687 - INFO - Request /primes?limit=800 succeeded in 2092.71ms
+2024-10-10 05:47:34,687 - INFO - Request /primes?limit=800 succeeded in 2092.28ms
+2024-10-10 05:47:34,687 - INFO - Request /primes?limit=800 succeeded in 2096.70ms
+2024-10-10 05:47:34,687 - INFO - Request /primes?limit=800 succeeded in 2097.91ms
+2024-10-10 05:47:34,786 - INFO - Request /primes?limit=800 succeeded in 2098.63ms
+2024-10-10 05:47:34,786 - INFO - Request /primes?limit=800 succeeded in 1801.32ms
+2024-10-10 05:47:34,786 - INFO - Request /primes?limit=800 succeeded in 1800.79ms
+2024-10-10 05:47:34,786 - INFO - Request /primes?limit=800 succeeded in 2100.44ms
+2024-10-10 05:47:34,787 - INFO - Request /primes?limit=800 succeeded in 1899.96ms
+2024-10-10 05:47:34,787 - INFO - Request /primes?limit=800 succeeded in 1803.35ms
+2024-10-10 05:47:34,787 - INFO - Request /primes?limit=800 succeeded in 1901.29ms
+2024-10-10 05:47:34,787 - INFO - Request /primes?limit=800 succeeded in 2192.11ms
+2024-10-10 05:47:35,223 - INFO - Request /primes?limit=800 succeeded in 1437.62ms
+2024-10-10 05:47:35,341 - INFO - Request /primes?limit=800 succeeded in 1550.56ms
+2024-10-10 05:47:35,350 - INFO - Request /primes?limit=800 succeeded in 1559.87ms
+2024-10-10 05:47:35,359 - INFO - Request /primes?limit=800 succeeded in 1569.45ms
+2024-10-10 05:47:35,404 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:35,404 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:35,404 - INFO - GET      /primes?limit=800                                                                264    14(5.30%) |   3042    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:35,404 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:35,404 - INFO -          Aggregated                                                                       264    14(5.30%) |   3042    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:35,404 - INFO - 
+2024-10-10 05:47:35,412 - INFO - Request /primes?limit=800 succeeded in 1623.38ms
+2024-10-10 05:47:35,422 - INFO - Request /primes?limit=800 succeeded in 1633.78ms
+2024-10-10 05:47:35,430 - INFO - Request /primes?limit=800 succeeded in 1643.57ms
+2024-10-10 05:47:35,588 - INFO - Request /primes?limit=800 succeeded in 1700.29ms
+2024-10-10 05:47:35,613 - INFO - Request /primes?limit=800 succeeded in 1725.91ms
+2024-10-10 05:47:35,621 - INFO - Request /primes?limit=800 succeeded in 1735.57ms
+2024-10-10 05:47:35,630 - INFO - Request /primes?limit=800 succeeded in 1643.87ms
+2024-10-10 05:47:35,711 - INFO - Request /primes?limit=800 succeeded in 1726.05ms
+2024-10-10 05:47:35,720 - INFO - Request /primes?limit=800 succeeded in 1735.61ms
+2024-10-10 05:47:35,729 - INFO - Request /primes?limit=800 succeeded in 1543.92ms
+2024-10-10 05:47:35,810 - INFO - Request /primes?limit=800 succeeded in 1626.04ms
+2024-10-10 05:47:35,819 - INFO - Request /primes?limit=800 succeeded in 1732.04ms
+2024-10-10 05:47:35,828 - INFO - Request /primes?limit=800 succeeded in 1741.85ms
+2024-10-10 05:47:35,836 - INFO - Request /primes?limit=800 succeeded in 1648.76ms
+2024-10-10 05:47:35,914 - INFO - Request /primes?limit=800 succeeded in 1726.99ms
+2024-10-10 05:47:35,923 - INFO - Request /primes?limit=800 succeeded in 1737.32ms
+2024-10-10 05:47:37,405 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:37,405 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:37,405 - INFO - GET      /primes?limit=800                                                                280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:37,405 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:37,405 - INFO -          Aggregated                                                                       280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:37,406 - INFO - 
+2024-10-10 05:47:39,407 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:39,407 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:39,407 - INFO - GET      /primes?limit=800                                                                280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:39,407 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:39,407 - INFO -          Aggregated                                                                       280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:39,407 - INFO - 
+2024-10-10 05:47:41,408 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:41,409 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:41,409 - INFO - GET      /primes?limit=800                                                                280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:41,409 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:41,409 - INFO -          Aggregated                                                                       280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:41,409 - INFO - 
+2024-10-10 05:47:43,409 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:43,410 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:43,410 - INFO - GET      /primes?limit=800                                                                280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:43,410 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:43,410 - INFO -          Aggregated                                                                       280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:43,410 - INFO - 
+2024-10-10 05:47:45,411 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:45,411 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:45,411 - INFO - GET      /primes?limit=800                                                                280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:45,411 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:45,411 - INFO -          Aggregated                                                                       280    14(5.00%) |   2964    1437    5491   2800 |    4.00        0.00
+2024-10-10 05:47:45,411 - INFO - 
+2024-10-10 05:47:46,213 - INFO - Request /primes?limit=800 succeeded in 3623.91ms
+2024-10-10 05:47:46,222 - INFO - Request /primes?limit=800 succeeded in 3634.37ms
+2024-10-10 05:47:46,813 - INFO - Request /primes?limit=800 succeeded in 4224.03ms
+2024-10-10 05:47:46,823 - INFO - Request /primes?limit=800 succeeded in 4232.38ms
+2024-10-10 05:47:46,832 - INFO - Request /primes?limit=800 succeeded in 4240.53ms
+2024-10-10 05:47:46,913 - INFO - Request /primes?limit=800 succeeded in 4320.07ms
+2024-10-10 05:47:46,921 - INFO - Request /primes?limit=800 succeeded in 4329.54ms
+2024-10-10 05:47:46,930 - INFO - Request /primes?limit=800 succeeded in 4334.80ms
+2024-10-10 05:47:47,011 - INFO - Request /primes?limit=800 succeeded in 4416.56ms
+2024-10-10 05:47:47,020 - INFO - Request /primes?limit=800 succeeded in 4426.11ms
+2024-10-10 05:47:47,029 - INFO - Request /primes?limit=800 succeeded in 4435.45ms
+2024-10-10 05:47:47,037 - INFO - Request /primes?limit=800 succeeded in 4051.96ms
+2024-10-10 05:47:47,115 - INFO - Request /primes?limit=800 succeeded in 4130.45ms
+2024-10-10 05:47:47,124 - INFO - Request /primes?limit=800 succeeded in 4236.74ms
+2024-10-10 05:47:47,208 - INFO - Request /primes?limit=800 succeeded in 4322.41ms
+2024-10-10 05:47:47,218 - INFO - Request /primes?limit=800 succeeded in 4532.64ms
+2024-10-10 05:47:47,227 - INFO - Request /primes?limit=800 succeeded in 4542.42ms
+2024-10-10 05:47:47,235 - INFO - Request /primes?limit=800 succeeded in 4548.58ms
+2024-10-10 05:47:47,313 - INFO - Request /primes?limit=800 succeeded in 4626.92ms
+2024-10-10 05:47:47,322 - INFO - Request /primes?limit=800 succeeded in 4336.20ms
+2024-10-10 05:47:47,413 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:47,413 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:47,413 - INFO - GET      /primes?limit=800                                                                300    14(4.67%) |   3052    1437    5491   2900 |    2.00        0.00
+2024-10-10 05:47:47,413 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:47,413 - INFO -          Aggregated                                                                       300    14(4.67%) |   3052    1437    5491   2900 |    2.00        0.00
+2024-10-10 05:47:47,413 - INFO - 
+2024-10-10 05:47:48,213 - INFO - Request /primes?limit=800 succeeded in 4427.42ms
+2024-10-10 05:47:48,412 - INFO - Request /primes?limit=800 succeeded in 4623.92ms
+2024-10-10 05:47:48,421 - INFO - Request /primes?limit=800 succeeded in 4633.67ms
+2024-10-10 05:47:48,429 - INFO - Request /primes?limit=800 succeeded in 4639.08ms
+2024-10-10 05:47:48,438 - INFO - Request /primes?limit=800 succeeded in 4550.62ms
+2024-10-10 05:47:48,515 - INFO - Request /primes?limit=800 succeeded in 4629.81ms
+2024-10-10 05:47:48,524 - INFO - Request /primes?limit=800 succeeded in 4640.14ms
+2024-10-10 05:47:48,533 - INFO - Request /primes?limit=800 succeeded in 4449.21ms
+2024-10-10 05:47:48,710 - INFO - Request /primes?limit=800 succeeded in 4621.76ms
+2024-10-10 05:47:48,719 - INFO - Request /primes?limit=800 succeeded in 4632.00ms
+2024-10-10 05:47:48,729 - INFO - Request /primes?limit=800 succeeded in 4642.06ms
+2024-10-10 05:47:49,415 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:49,415 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:49,415 - INFO - GET      /primes?limit=800                                                                311    14(4.50%) |   3106    1437    5491   3000 |    0.00        0.00
+2024-10-10 05:47:49,415 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:49,415 - INFO -          Aggregated                                                                       311    14(4.50%) |   3106    1437    5491   3000 |    0.00        0.00
+2024-10-10 05:47:49,415 - INFO - 
+2024-10-10 05:47:49,510 - INFO - Request /primes?limit=800 succeeded in 5324.56ms
+2024-10-10 05:47:49,519 - INFO - Request /primes?limit=800 succeeded in 5434.44ms
+2024-10-10 05:47:49,528 - INFO - Request /primes?limit=800 succeeded in 5442.21ms
+2024-10-10 05:47:49,537 - INFO - Request /primes?limit=800 succeeded in 5447.86ms
+2024-10-10 05:47:49,614 - INFO - Request /primes?limit=800 succeeded in 5524.71ms
+2024-10-10 05:47:49,624 - INFO - Request /primes?limit=800 succeeded in 5533.56ms
+2024-10-10 05:47:49,633 - INFO - Request /primes?limit=800 succeeded in 5541.69ms
+2024-10-10 05:47:49,714 - INFO - Request /primes?limit=800 succeeded in 5529.05ms
+2024-10-10 05:47:50,334 - INFO - Request /primes?limit=800 succeeded in 6545.20ms
+2024-10-10 05:47:51,417 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:51,417 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:51,417 - INFO - GET      /primes?limit=800                                                                320    14(4.38%) |   3176    1437    6545   3000 |    2.00        0.00
+2024-10-10 05:47:51,417 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:51,417 - INFO -          Aggregated                                                                       320    14(4.38%) |   3176    1437    6545   3000 |    2.00        0.00
+2024-10-10 05:47:51,418 - INFO - 
+2024-10-10 05:47:53,418 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:53,419 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:53,419 - INFO - GET      /primes?limit=800                                                                320    14(4.38%) |   3176    1437    6545   3000 |    2.00        0.00
+2024-10-10 05:47:53,419 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:53,419 - INFO -          Aggregated                                                                       320    14(4.38%) |   3176    1437    6545   3000 |    2.00        0.00
+2024-10-10 05:47:53,419 - INFO - 
+2024-10-10 05:47:55,293 - INFO - Request /primes?limit=800 succeeded in 1507.00ms
+2024-10-10 05:47:55,420 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:55,420 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:55,420 - INFO - GET      /primes?limit=800                                                                321    15(4.67%) |   3171    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:47:55,420 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:55,420 - INFO -          Aggregated                                                                       321    15(4.67%) |   3171    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:47:55,420 - INFO - 
+2024-10-10 05:47:55,493 - INFO - Request /primes?limit=800 succeeded in 1705.19ms
+2024-10-10 05:47:55,494 - INFO - Request /primes?limit=800 succeeded in 1706.96ms
+2024-10-10 05:47:55,495 - INFO - Request /primes?limit=800 succeeded in 1704.29ms
+2024-10-10 05:47:55,496 - INFO - Request /primes?limit=800 succeeded in 1705.55ms
+2024-10-10 05:47:55,497 - INFO - Request /primes?limit=800 succeeded in 1707.24ms
+2024-10-10 05:47:55,497 - INFO - Request /primes?limit=800 succeeded in 1708.57ms
+2024-10-10 05:47:55,923 - INFO - Request /primes?limit=800 succeeded in 3334.78ms
+2024-10-10 05:47:55,932 - INFO - Request /primes?limit=800 succeeded in 3345.17ms
+2024-10-10 05:47:56,013 - INFO - Request /primes?limit=800 succeeded in 3422.18ms
+2024-10-10 05:47:56,017 - INFO - Request /primes?limit=800 succeeded in 2131.07ms
+2024-10-10 05:47:56,022 - INFO - Request /primes?limit=800 succeeded in 3431.77ms
+2024-10-10 05:47:56,031 - INFO - Request /primes?limit=800 succeeded in 3441.50ms
+2024-10-10 05:47:56,084 - INFO - Request /primes?limit=800 succeeded in 1997.57ms
+2024-10-10 05:47:56,085 - INFO - Request /primes?limit=800 succeeded in 2099.52ms
+2024-10-10 05:47:56,112 - INFO - Request /primes?limit=800 succeeded in 3428.00ms
+2024-10-10 05:47:56,122 - INFO - Request /primes?limit=800 succeeded in 3435.96ms
+2024-10-10 05:47:56,186 - INFO - Request /primes?limit=800 succeeded in 2298.55ms
+2024-10-10 05:47:56,186 - INFO - Request /primes?limit=800 succeeded in 2201.45ms
+2024-10-10 05:47:56,186 - INFO - Request /primes?limit=800 succeeded in 3497.20ms
+2024-10-10 05:47:56,212 - INFO - Request /primes?limit=800 succeeded in 3524.14ms
+2024-10-10 05:47:56,286 - INFO - Request /primes?limit=800 succeeded in 2399.35ms
+2024-10-10 05:47:56,286 - INFO - Request /primes?limit=800 succeeded in 3599.61ms
+2024-10-10 05:47:56,286 - INFO - Request /primes?limit=800 succeeded in 3598.94ms
+2024-10-10 05:47:56,312 - INFO - Request /primes?limit=800 succeeded in 3525.92ms
+2024-10-10 05:47:56,387 - INFO - Request /primes?limit=800 succeeded in 2295.74ms
+2024-10-10 05:47:56,387 - INFO - Request /primes?limit=800 succeeded in 2203.27ms
+2024-10-10 05:47:56,388 - INFO - Request /primes?limit=800 succeeded in 3603.37ms
+2024-10-10 05:47:56,388 - INFO - Request /primes?limit=800 succeeded in 3602.56ms
+2024-10-10 05:47:56,486 - INFO - Request /primes?limit=800 succeeded in 2395.86ms
+2024-10-10 05:47:56,487 - INFO - Request /primes?limit=800 succeeded in 3501.96ms
+2024-10-10 05:47:56,487 - INFO - Request /primes?limit=800 succeeded in 3796.92ms
+2024-10-10 05:47:56,487 - INFO - Request /primes?limit=800 succeeded in 3796.31ms
+2024-10-10 05:47:56,587 - INFO - Request /primes?limit=800 succeeded in 2498.08ms
+2024-10-10 05:47:56,587 - INFO - Request /primes?limit=800 succeeded in 2497.76ms
+2024-10-10 05:47:56,588 - INFO - Request /primes?limit=800 succeeded in 3702.25ms
+2024-10-10 05:47:56,588 - INFO - Request /primes?limit=800 succeeded in 3701.55ms
+2024-10-10 05:47:56,588 - INFO - Request /primes?limit=800 succeeded in 3700.83ms
+2024-10-10 05:47:56,685 - INFO - Request /primes?limit=800 succeeded in 2598.15ms
+2024-10-10 05:47:56,686 - INFO - Request /primes?limit=800 succeeded in 2597.78ms
+2024-10-10 05:47:57,422 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:57,422 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:57,422 - INFO - GET      /primes?limit=800                                                                360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:47:57,422 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:57,422 - INFO -          Aggregated                                                                       360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:47:57,423 - INFO - 
+2024-10-10 05:47:59,424 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:47:59,424 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:59,424 - INFO - GET      /primes?limit=800                                                                360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:47:59,424 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:47:59,424 - INFO -          Aggregated                                                                       360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:47:59,424 - INFO - 
+2024-10-10 05:48:01,426 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:01,426 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:01,427 - INFO - GET      /primes?limit=800                                                                360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:48:01,427 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:01,427 - INFO -          Aggregated                                                                       360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:48:01,427 - INFO - 
+2024-10-10 05:48:03,428 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:03,428 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:03,428 - INFO - GET      /primes?limit=800                                                                360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:48:03,428 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:03,428 - INFO -          Aggregated                                                                       360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:48:03,428 - INFO - 
+2024-10-10 05:48:05,429 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:05,429 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:05,430 - INFO - GET      /primes?limit=800                                                                360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:48:05,430 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:05,430 - INFO -          Aggregated                                                                       360    21(5.83%) |   3137    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:48:05,430 - INFO - 
+2024-10-10 05:48:06,516 - INFO - Request /primes?limit=800 succeeded in 3928.19ms
+2024-10-10 05:48:06,526 - INFO - Request /primes?limit=800 succeeded in 3936.03ms
+2024-10-10 05:48:06,535 - INFO - Request /primes?limit=800 succeeded in 3942.96ms
+2024-10-10 05:48:06,617 - INFO - Request /primes?limit=800 succeeded in 4025.46ms
+2024-10-10 05:48:06,627 - INFO - Request /primes?limit=800 succeeded in 4035.73ms
+2024-10-10 05:48:06,635 - INFO - Request /primes?limit=800 succeeded in 4046.19ms
+2024-10-10 05:48:06,717 - INFO - Request /primes?limit=800 succeeded in 3731.17ms
+2024-10-10 05:48:06,726 - INFO - Request /primes?limit=800 succeeded in 3741.82ms
+2024-10-10 05:48:06,735 - INFO - Request /primes?limit=800 succeeded in 4049.83ms
+2024-10-10 05:48:06,816 - INFO - Request /primes?limit=800 succeeded in 4132.25ms
+2024-10-10 05:48:06,826 - INFO - Request /primes?limit=800 succeeded in 4230.41ms
+2024-10-10 05:48:06,834 - INFO - Request /primes?limit=800 succeeded in 4239.86ms
+2024-10-10 05:48:06,911 - INFO - Request /primes?limit=800 succeeded in 4317.41ms
+2024-10-10 05:48:06,920 - INFO - Request /primes?limit=800 succeeded in 4326.91ms
+2024-10-10 05:48:06,929 - INFO - Request /primes?limit=800 succeeded in 4044.58ms
+2024-10-10 05:48:07,010 - INFO - Request /primes?limit=800 succeeded in 4223.64ms
+2024-10-10 05:48:07,019 - INFO - Request /primes?limit=800 succeeded in 4233.18ms
+2024-10-10 05:48:07,027 - INFO - Request /primes?limit=800 succeeded in 4242.63ms
+2024-10-10 05:48:07,108 - INFO - Request /primes?limit=800 succeeded in 4420.82ms
+2024-10-10 05:48:07,117 - INFO - Request /primes?limit=800 succeeded in 4431.09ms
+2024-10-10 05:48:07,431 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:07,432 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:07,432 - INFO - GET      /primes?limit=800                                                                380    21(5.53%) |   3188    1437    6545   3200 |    4.00        0.70
+2024-10-10 05:48:07,432 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:07,432 - INFO -          Aggregated                                                                       380    21(5.53%) |   3188    1437    6545   3200 |    4.00        0.70
+2024-10-10 05:48:07,432 - INFO - 
+2024-10-10 05:48:07,433 - INFO - Request /primes?limit=800 succeeded in 3644.85ms
+2024-10-10 05:48:07,515 - INFO - Request /primes?limit=800 succeeded in 3727.36ms
+2024-10-10 05:48:07,524 - INFO - Request /primes?limit=800 succeeded in 3737.66ms
+2024-10-10 05:48:07,534 - INFO - Request /primes?limit=800 succeeded in 3749.08ms
+2024-10-10 05:48:07,616 - INFO - Request /primes?limit=800 succeeded in 3827.17ms
+2024-10-10 05:48:07,626 - INFO - Request /primes?limit=800 succeeded in 3641.49ms
+2024-10-10 05:48:07,635 - INFO - Request /primes?limit=800 succeeded in 3844.24ms
+2024-10-10 05:48:07,717 - INFO - Request /primes?limit=800 succeeded in 3729.23ms
+2024-10-10 05:48:07,726 - INFO - Request /primes?limit=800 succeeded in 3739.48ms
+2024-10-10 05:48:07,735 - INFO - Request /primes?limit=800 succeeded in 3749.36ms
+2024-10-10 05:48:07,816 - INFO - Request /primes?limit=800 succeeded in 3732.28ms
+2024-10-10 05:48:07,825 - INFO - Request /primes?limit=800 succeeded in 3834.35ms
+2024-10-10 05:48:07,834 - INFO - Request /primes?limit=800 succeeded in 3843.65ms
+2024-10-10 05:48:07,915 - INFO - Request /primes?limit=800 succeeded in 3925.61ms
+2024-10-10 05:48:07,924 - INFO - Request /primes?limit=800 succeeded in 3934.86ms
+2024-10-10 05:48:08,009 - INFO - Request /primes?limit=800 succeeded in 4020.52ms
+2024-10-10 05:48:08,018 - INFO - Request /primes?limit=800 succeeded in 3932.41ms
+2024-10-10 05:48:08,026 - INFO - Request /primes?limit=800 succeeded in 3842.26ms
+2024-10-10 05:48:08,035 - INFO - Request /primes?limit=800 succeeded in 3947.81ms
+2024-10-10 05:48:08,112 - INFO - Request /primes?limit=800 succeeded in 4026.04ms
+2024-10-10 05:48:09,433 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:09,433 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:09,433 - INFO - GET      /primes?limit=800                                                                400    21(5.25%) |   3220    1437    6545   3300 |    3.10        0.00
+2024-10-10 05:48:09,433 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:09,433 - INFO -          Aggregated                                                                       400    21(5.25%) |   3220    1437    6545   3300 |    3.10        0.00
+2024-10-10 05:48:09,433 - INFO - 
+2024-10-10 05:48:11,434 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:11,434 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:11,434 - INFO - GET      /primes?limit=800                                                                400    21(5.25%) |   3220    1437    6545   3300 |    3.10        0.00
+2024-10-10 05:48:11,434 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:11,434 - INFO -          Aggregated                                                                       400    21(5.25%) |   3220    1437    6545   3300 |    3.10        0.00
+2024-10-10 05:48:11,434 - INFO - 
+2024-10-10 05:48:13,435 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:13,435 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:13,435 - INFO - GET      /primes?limit=800                                                                400    21(5.25%) |   3220    1437    6545   3300 |    3.10        0.00
+2024-10-10 05:48:13,435 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:13,435 - INFO -          Aggregated                                                                       400    21(5.25%) |   3220    1437    6545   3300 |    3.10        0.00
+2024-10-10 05:48:13,436 - INFO - 
+2024-10-10 05:48:14,956 - INFO - Request /primes?limit=800 succeeded in 1971.01ms
+2024-10-10 05:48:14,969 - INFO - Request /primes?limit=800 succeeded in 1984.88ms
+2024-10-10 05:48:15,067 - INFO - Request /primes?limit=800 succeeded in 2179.66ms
+2024-10-10 05:48:15,076 - INFO - Request /primes?limit=800 succeeded in 2389.73ms
+2024-10-10 05:48:15,170 - INFO - Request /primes?limit=800 succeeded in 2484.36ms
+2024-10-10 05:48:15,179 - INFO - Request /primes?limit=800 succeeded in 2495.10ms
+2024-10-10 05:48:15,273 - INFO - Request /primes?limit=800 succeeded in 2678.20ms
+2024-10-10 05:48:15,291 - INFO - Request /primes?limit=800 succeeded in 1504.41ms
+2024-10-10 05:48:15,368 - INFO - Request /primes?limit=800 succeeded in 2773.16ms
+2024-10-10 05:48:15,377 - INFO - Request /primes?limit=800 succeeded in 2783.50ms
+2024-10-10 05:48:15,437 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:15,437 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:15,437 - INFO - GET      /primes?limit=800                                                                410    22(5.37%) |   3198    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:15,437 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:15,437 - INFO -          Aggregated                                                                       410    22(5.37%) |   3198    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:15,437 - INFO - 
+2024-10-10 05:48:15,471 - INFO - Request /primes?limit=800 succeeded in 2877.66ms
+2024-10-10 05:48:15,479 - INFO - Request /primes?limit=800 succeeded in 2887.02ms
+2024-10-10 05:48:15,573 - INFO - Request /primes?limit=800 succeeded in 2981.14ms
+2024-10-10 05:48:15,591 - INFO - Request /primes?limit=800 succeeded in 1803.61ms
+2024-10-10 05:48:15,592 - INFO - Request /primes?limit=800 succeeded in 1803.54ms
+2024-10-10 05:48:15,593 - INFO - Request /primes?limit=800 succeeded in 1801.43ms
+2024-10-10 05:48:15,593 - INFO - Request /primes?limit=800 succeeded in 1802.86ms
+2024-10-10 05:48:15,594 - INFO - Request /primes?limit=800 succeeded in 1804.04ms
+2024-10-10 05:48:15,594 - INFO - Request /primes?limit=800 succeeded in 1805.25ms
+2024-10-10 05:48:15,671 - INFO - Request /primes?limit=800 succeeded in 3079.45ms
+2024-10-10 05:48:15,685 - INFO - Request /primes?limit=800 succeeded in 3094.36ms
+2024-10-10 05:48:15,774 - INFO - Request /primes?limit=800 succeeded in 3184.58ms
+2024-10-10 05:48:15,868 - INFO - Request /primes?limit=800 succeeded in 3279.18ms
+2024-10-10 05:48:15,877 - INFO - Request /primes?limit=800 succeeded in 3289.25ms
+2024-10-10 05:48:15,970 - INFO - Request /primes?limit=800 succeeded in 3186.73ms
+2024-10-10 05:48:15,979 - INFO - Request /primes?limit=800 succeeded in 2992.83ms
+2024-10-10 05:48:16,073 - INFO - Request /primes?limit=800 succeeded in 3087.62ms
+2024-10-10 05:48:17,438 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:17,438 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:17,438 - INFO - GET      /primes?limit=800                                                                427    28(6.56%) |   3175    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:17,438 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:17,439 - INFO -          Aggregated                                                                       427    28(6.56%) |   3175    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:17,439 - INFO - 
+2024-10-10 05:48:18,034 - INFO - Request /primes?limit=800 succeeded in 4147.36ms
+2024-10-10 05:48:18,115 - INFO - Request /primes?limit=800 succeeded in 4229.59ms
+2024-10-10 05:48:18,124 - INFO - Request /primes?limit=800 succeeded in 4035.20ms
+2024-10-10 05:48:18,132 - INFO - Request /primes?limit=800 succeeded in 4044.57ms
+2024-10-10 05:48:18,210 - INFO - Request /primes?limit=800 succeeded in 4122.80ms
+2024-10-10 05:48:18,219 - INFO - Request /primes?limit=800 succeeded in 4133.14ms
+2024-10-10 05:48:18,228 - INFO - Request /primes?limit=800 succeeded in 4143.27ms
+2024-10-10 05:48:18,310 - INFO - Request /primes?limit=800 succeeded in 4225.51ms
+2024-10-10 05:48:18,319 - INFO - Request /primes?limit=800 succeeded in 4431.91ms
+2024-10-10 05:48:18,328 - INFO - Request /primes?limit=800 succeeded in 4143.85ms
+2024-10-10 05:48:18,409 - INFO - Request /primes?limit=800 succeeded in 4318.21ms
+2024-10-10 05:48:18,419 - INFO - Request /primes?limit=800 succeeded in 4328.30ms
+2024-10-10 05:48:18,428 - INFO - Request /primes?limit=800 succeeded in 4338.40ms
+2024-10-10 05:48:19,439 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:19,439 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:19,439 - INFO - GET      /primes?limit=800                                                                440    28(6.36%) |   3206    1437    6545   3200 |    6.60        0.70
+2024-10-10 05:48:19,439 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:19,439 - INFO -          Aggregated                                                                       440    28(6.36%) |   3206    1437    6545   3200 |    6.60        0.70
+2024-10-10 05:48:19,439 - INFO - 
+2024-10-10 05:48:21,440 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:21,441 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:21,441 - INFO - GET      /primes?limit=800                                                                440    28(6.36%) |   3206    1437    6545   3200 |    6.60        0.70
+2024-10-10 05:48:21,441 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:21,441 - INFO -          Aggregated                                                                       440    28(6.36%) |   3206    1437    6545   3200 |    6.60        0.70
+2024-10-10 05:48:21,441 - INFO - 
+2024-10-10 05:48:23,442 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:23,442 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:23,442 - INFO - GET      /primes?limit=800                                                                440    28(6.36%) |   3206    1437    6545   3200 |    6.60        0.70
+2024-10-10 05:48:23,442 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:23,442 - INFO -          Aggregated                                                                       440    28(6.36%) |   3206    1437    6545   3200 |    6.60        0.70
+2024-10-10 05:48:23,442 - INFO - 
+2024-10-10 05:48:24,732 - INFO - Request /primes?limit=800 succeeded in 2143.75ms
+2024-10-10 05:48:24,815 - INFO - Request /primes?limit=800 succeeded in 2227.70ms
+2024-10-10 05:48:24,825 - INFO - Request /primes?limit=800 succeeded in 2231.54ms
+2024-10-10 05:48:24,834 - INFO - Request /primes?limit=800 succeeded in 2240.95ms
+2024-10-10 05:48:24,917 - INFO - Request /primes?limit=800 succeeded in 2324.77ms
+2024-10-10 05:48:24,927 - INFO - Request /primes?limit=800 succeeded in 2336.10ms
+2024-10-10 05:48:25,009 - INFO - Request /primes?limit=800 succeeded in 2418.77ms
+2024-10-10 05:48:25,020 - INFO - Request /primes?limit=800 succeeded in 2230.06ms
+2024-10-10 05:48:25,029 - INFO - Request /primes?limit=800 succeeded in 2239.93ms
+2024-10-10 05:48:25,037 - INFO - Request /primes?limit=800 succeeded in 2249.27ms
+2024-10-10 05:48:25,116 - INFO - Request /primes?limit=800 succeeded in 2330.45ms
+2024-10-10 05:48:25,126 - INFO - Request /primes?limit=800 succeeded in 2438.73ms
+2024-10-10 05:48:25,135 - INFO - Request /primes?limit=800 succeeded in 2148.56ms
+2024-10-10 05:48:25,218 - INFO - Request /primes?limit=800 succeeded in 2232.27ms
+2024-10-10 05:48:25,227 - INFO - Request /primes?limit=800 succeeded in 2540.26ms
+2024-10-10 05:48:25,313 - INFO - Request /primes?limit=800 succeeded in 2627.21ms
+2024-10-10 05:48:25,323 - INFO - Request /primes?limit=800 succeeded in 2638.39ms
+2024-10-10 05:48:25,333 - INFO - Request /primes?limit=800 succeeded in 2648.54ms
+2024-10-10 05:48:25,416 - INFO - Request /primes?limit=800 succeeded in 2820.48ms
+2024-10-10 05:48:25,426 - INFO - Request /primes?limit=800 succeeded in 2831.76ms
+2024-10-10 05:48:25,443 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:25,443 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:25,443 - INFO - GET      /primes?limit=800                                                                460    28(6.09%) |   3171    1437    6545   3100 |    4.00        0.70
+2024-10-10 05:48:25,443 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:25,443 - INFO -          Aggregated                                                                       460    28(6.09%) |   3171    1437    6545   3100 |    4.00        0.70
+2024-10-10 05:48:25,443 - INFO - 
+2024-10-10 05:48:26,339 - INFO - Request /primes?limit=800 succeeded in 2553.12ms
+2024-10-10 05:48:26,418 - INFO - Request /primes?limit=800 succeeded in 2631.00ms
+2024-10-10 05:48:26,722 - INFO - Request /primes?limit=800 succeeded in 2931.57ms
+2024-10-10 05:48:26,731 - INFO - Request /primes?limit=800 succeeded in 2847.40ms
+2024-10-10 05:48:26,812 - INFO - Request /primes?limit=800 succeeded in 3022.16ms
+2024-10-10 05:48:26,821 - INFO - Request /primes?limit=800 succeeded in 3031.69ms
+2024-10-10 05:48:26,830 - INFO - Request /primes?limit=800 succeeded in 3041.21ms
+2024-10-10 05:48:26,921 - INFO - Request /primes?limit=800 succeeded in 3030.83ms
+2024-10-10 05:48:26,930 - INFO - Request /primes?limit=800 succeeded in 3040.78ms
+2024-10-10 05:48:26,939 - INFO - Request /primes?limit=800 succeeded in 3050.70ms
+2024-10-10 05:48:27,017 - INFO - Request /primes?limit=800 succeeded in 3129.26ms
+2024-10-10 05:48:27,026 - INFO - Request /primes?limit=800 succeeded in 2841.74ms
+2024-10-10 05:48:27,035 - INFO - Request /primes?limit=800 succeeded in 2947.61ms
+2024-10-10 05:48:27,116 - INFO - Request /primes?limit=800 succeeded in 3029.37ms
+2024-10-10 05:48:27,125 - INFO - Request /primes?limit=800 succeeded in 3038.59ms
+2024-10-10 05:48:27,133 - INFO - Request /primes?limit=800 succeeded in 3047.94ms
+2024-10-10 05:48:27,220 - INFO - Request /primes?limit=800 succeeded in 3135.31ms
+2024-10-10 05:48:27,224 - INFO - Request /primes?limit=800 succeeded in 3238.91ms
+2024-10-10 05:48:27,232 - INFO - Request /primes?limit=800 succeeded in 3341.08ms
+2024-10-10 05:48:27,315 - INFO - Request /primes?limit=800 succeeded in 3424.03ms
+2024-10-10 05:48:27,444 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:27,444 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:27,444 - INFO - GET      /primes?limit=800                                                                480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:27,444 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:27,445 - INFO -          Aggregated                                                                       480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:27,445 - INFO - 
+2024-10-10 05:48:29,445 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:29,446 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:29,446 - INFO - GET      /primes?limit=800                                                                480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:29,446 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:29,446 - INFO -          Aggregated                                                                       480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:29,446 - INFO - 
+2024-10-10 05:48:31,446 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:31,447 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:31,447 - INFO - GET      /primes?limit=800                                                                480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:31,447 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:31,447 - INFO -          Aggregated                                                                       480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:31,447 - INFO - 
+2024-10-10 05:48:33,448 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:33,448 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:33,448 - INFO - GET      /primes?limit=800                                                                480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:33,448 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:33,448 - INFO -          Aggregated                                                                       480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:33,448 - INFO - 
+2024-10-10 05:48:35,449 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:35,449 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:35,449 - INFO - GET      /primes?limit=800                                                                480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:35,449 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:35,449 - INFO -          Aggregated                                                                       480    28(5.83%) |   3164    1437    6545   3100 |    4.40        0.70
+2024-10-10 05:48:35,449 - INFO - 
+2024-10-10 05:48:37,232 - INFO - Request /primes?limit=800 succeeded in 4644.52ms
+2024-10-10 05:48:37,313 - INFO - Request /primes?limit=800 succeeded in 4723.82ms
+2024-10-10 05:48:37,322 - INFO - Request /primes?limit=800 succeeded in 4728.79ms
+2024-10-10 05:48:37,331 - INFO - Request /primes?limit=800 succeeded in 4738.37ms
+2024-10-10 05:48:37,340 - INFO - Request /primes?limit=800 succeeded in 4747.73ms
+2024-10-10 05:48:37,417 - INFO - Request /primes?limit=800 succeeded in 4826.18ms
+2024-10-10 05:48:37,427 - INFO - Request /primes?limit=800 succeeded in 4836.56ms
+2024-10-10 05:48:37,451 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:37,451 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:37,451 - INFO - GET      /primes?limit=800                                                                487    28(5.75%) |   3187    1437    6545   3100 |    3.40        0.00
+2024-10-10 05:48:37,451 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:37,451 - INFO -          Aggregated                                                                       487    28(5.75%) |   3187    1437    6545   3100 |    3.40        0.00
+2024-10-10 05:48:37,451 - INFO - 
+2024-10-10 05:48:38,316 - INFO - Request /primes?limit=800 succeeded in 5722.50ms
+2024-10-10 05:48:38,326 - INFO - Request /primes?limit=800 succeeded in 5731.13ms
+2024-10-10 05:48:38,335 - INFO - Request /primes?limit=800 succeeded in 5739.96ms
+2024-10-10 05:48:38,417 - INFO - Request /primes?limit=800 succeeded in 5732.46ms
+2024-10-10 05:48:38,426 - INFO - Request /primes?limit=800 succeeded in 5540.85ms
+2024-10-10 05:48:38,518 - INFO - Request /primes?limit=800 succeeded in 4732.30ms
+2024-10-10 05:48:38,527 - INFO - Request /primes?limit=800 succeeded in 5938.12ms
+2024-10-10 05:48:38,536 - INFO - Request /primes?limit=800 succeeded in 5848.86ms
+2024-10-10 05:48:38,618 - INFO - Request /primes?limit=800 succeeded in 5931.96ms
+2024-10-10 05:48:38,627 - INFO - Request /primes?limit=800 succeeded in 5941.85ms
+2024-10-10 05:48:38,709 - INFO - Request /primes?limit=800 succeeded in 5723.32ms
+2024-10-10 05:48:38,728 - INFO - Request /primes?limit=800 succeeded in 4937.28ms
+2024-10-10 05:48:38,809 - INFO - Request /primes?limit=800 succeeded in 4922.63ms
+2024-10-10 05:48:38,818 - INFO - Request /primes?limit=800 succeeded in 4933.60ms
+2024-10-10 05:48:38,828 - INFO - Request /primes?limit=800 succeeded in 5038.43ms
+2024-10-10 05:48:38,909 - INFO - Request /primes?limit=800 succeeded in 4623.86ms
+2024-10-10 05:48:38,918 - INFO - Request /primes?limit=800 succeeded in 6031.79ms
+2024-10-10 05:48:39,018 - INFO - Request /primes?limit=800 succeeded in 6033.06ms
+2024-10-10 05:48:39,027 - INFO - Request /primes?limit=800 succeeded in 6139.66ms
+2024-10-10 05:48:39,228 - INFO - Request /primes?limit=800 succeeded in 5141.20ms
+2024-10-10 05:48:39,310 - INFO - Request /primes?limit=800 succeeded in 5125.85ms
+2024-10-10 05:48:39,320 - INFO - Request /primes?limit=800 succeeded in 5134.63ms
+2024-10-10 05:48:39,329 - INFO - Request /primes?limit=800 succeeded in 5142.91ms
+2024-10-10 05:48:39,337 - INFO - Request /primes?limit=800 succeeded in 5150.68ms
+2024-10-10 05:48:39,415 - INFO - Request /primes?limit=800 succeeded in 5227.42ms
+2024-10-10 05:48:39,423 - INFO - Request /primes?limit=800 succeeded in 5138.55ms
+2024-10-10 05:48:39,432 - INFO - Request /primes?limit=800 succeeded in 5346.99ms
+2024-10-10 05:48:39,453 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:39,453 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:39,453 - INFO - GET      /primes?limit=800                                                                514    28(5.45%) |   3305    1437    6545   3200 |    1.00        0.00
+2024-10-10 05:48:39,453 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:39,453 - INFO -          Aggregated                                                                       514    28(5.45%) |   3305    1437    6545   3200 |    1.00        0.00
+2024-10-10 05:48:39,453 - INFO - 
+2024-10-10 05:48:39,513 - INFO - Request /primes?limit=800 succeeded in 5427.51ms
+2024-10-10 05:48:39,523 - INFO - Request /primes?limit=800 succeeded in 5438.94ms
+2024-10-10 05:48:39,532 - INFO - Request /primes?limit=800 succeeded in 5548.40ms
+2024-10-10 05:48:39,614 - INFO - Request /primes?limit=800 succeeded in 5629.02ms
+2024-10-10 05:48:39,624 - INFO - Request /primes?limit=800 succeeded in 5836.42ms
+2024-10-10 05:48:39,633 - INFO - Request /primes?limit=800 succeeded in 5844.46ms
+2024-10-10 05:48:41,455 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:41,455 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:41,455 - INFO - GET      /primes?limit=800                                                                520    28(5.38%) |   3332    1437    6545   3300 |    1.00        0.00
+2024-10-10 05:48:41,455 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:41,456 - INFO -          Aggregated                                                                       520    28(5.38%) |   3332    1437    6545   3300 |    1.00        0.00
+2024-10-10 05:48:41,456 - INFO - 
+2024-10-10 05:48:43,456 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:43,457 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:43,457 - INFO - GET      /primes?limit=800                                                                520    28(5.38%) |   3332    1437    6545   3300 |    1.00        0.00
+2024-10-10 05:48:43,457 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:43,457 - INFO -          Aggregated                                                                       520    28(5.38%) |   3332    1437    6545   3300 |    1.00        0.00
+2024-10-10 05:48:43,457 - INFO - 
+2024-10-10 05:48:45,157 - INFO - Request /primes?limit=800 succeeded in 2470.30ms
+2024-10-10 05:48:45,166 - INFO - Request /primes?limit=800 succeeded in 2277.00ms
+2024-10-10 05:48:45,176 - INFO - Request /primes?limit=800 succeeded in 2287.27ms
+2024-10-10 05:48:45,273 - INFO - Request /primes?limit=800 succeeded in 2385.44ms
+2024-10-10 05:48:45,367 - INFO - Request /primes?limit=800 succeeded in 2479.32ms
+2024-10-10 05:48:45,376 - INFO - Request /primes?limit=800 succeeded in 2489.29ms
+2024-10-10 05:48:45,457 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:45,457 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:45,458 - INFO - GET      /primes?limit=800                                                                526    28(5.32%) |   3321    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:45,458 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:45,458 - INFO -          Aggregated                                                                       526    28(5.32%) |   3321    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:45,458 - INFO - 
+2024-10-10 05:48:45,469 - INFO - Request /primes?limit=800 succeeded in 2783.12ms
+2024-10-10 05:48:45,478 - INFO - Request /primes?limit=800 succeeded in 2792.83ms
+2024-10-10 05:48:45,572 - INFO - Request /primes?limit=800 succeeded in 2887.45ms
+2024-10-10 05:48:45,670 - INFO - Request /primes?limit=800 succeeded in 3074.63ms
+2024-10-10 05:48:45,679 - INFO - Request /primes?limit=800 succeeded in 3084.69ms
+2024-10-10 05:48:45,773 - INFO - Request /primes?limit=800 succeeded in 3179.16ms
+2024-10-10 05:48:45,867 - INFO - Request /primes?limit=800 succeeded in 3273.78ms
+2024-10-10 05:48:45,877 - INFO - Request /primes?limit=800 succeeded in 3283.88ms
+2024-10-10 05:48:45,971 - INFO - Request /primes?limit=800 succeeded in 3378.61ms
+2024-10-10 05:48:45,980 - INFO - Request /primes?limit=800 succeeded in 3388.73ms
+2024-10-10 05:48:46,074 - INFO - Request /primes?limit=800 succeeded in 3483.51ms
+2024-10-10 05:48:46,172 - INFO - Request /primes?limit=800 succeeded in 3582.26ms
+2024-10-10 05:48:46,265 - INFO - Request /primes?limit=800 succeeded in 3676.91ms
+2024-10-10 05:48:46,275 - INFO - Request /primes?limit=800 succeeded in 3687.45ms
+2024-10-10 05:48:46,971 - INFO - Request /primes?limit=800 succeeded in 3184.72ms
+2024-10-10 05:48:46,980 - INFO - Request /primes?limit=800 succeeded in 3191.14ms
+2024-10-10 05:48:47,074 - INFO - Request /primes?limit=800 succeeded in 3286.12ms
+2024-10-10 05:48:47,168 - INFO - Request /primes?limit=800 succeeded in 3377.81ms
+2024-10-10 05:48:47,176 - INFO - Request /primes?limit=800 succeeded in 3383.61ms
+2024-10-10 05:48:47,270 - INFO - Request /primes?limit=800 succeeded in 3478.36ms
+2024-10-10 05:48:47,368 - INFO - Request /primes?limit=800 succeeded in 3576.97ms
+2024-10-10 05:48:47,377 - INFO - Request /primes?limit=800 succeeded in 3392.24ms
+2024-10-10 05:48:47,459 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:47,459 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:47,459 - INFO - GET      /primes?limit=800                                                                548    28(5.11%) |   3320    1437    6545   3300 |    4.00        0.00
+2024-10-10 05:48:47,459 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:47,459 - INFO -          Aggregated                                                                       548    28(5.11%) |   3320    1437    6545   3300 |    4.00        0.00
+2024-10-10 05:48:47,459 - INFO - 
+2024-10-10 05:48:47,471 - INFO - Request /primes?limit=800 succeeded in 3583.74ms
+2024-10-10 05:48:47,481 - INFO - Request /primes?limit=800 succeeded in 3594.24ms
+2024-10-10 05:48:47,575 - INFO - Request /primes?limit=800 succeeded in 3689.31ms
+2024-10-10 05:48:47,668 - INFO - Request /primes?limit=800 succeeded in 3381.41ms
+2024-10-10 05:48:47,678 - INFO - Request /primes?limit=800 succeeded in 3391.65ms
+2024-10-10 05:48:47,772 - INFO - Request /primes?limit=800 succeeded in 3486.49ms
+2024-10-10 05:48:47,865 - INFO - Request /primes?limit=800 succeeded in 3677.98ms
+2024-10-10 05:48:47,875 - INFO - Request /primes?limit=800 succeeded in 3688.33ms
+2024-10-10 05:48:47,973 - INFO - Request /primes?limit=800 succeeded in 3787.25ms
+2024-10-10 05:48:48,066 - INFO - Request /primes?limit=800 succeeded in 3881.97ms
+2024-10-10 05:48:48,076 - INFO - Request /primes?limit=800 succeeded in 3988.72ms
+2024-10-10 05:48:48,170 - INFO - Request /primes?limit=800 succeeded in 4083.90ms
+2024-10-10 05:48:49,460 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:49,460 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:49,460 - INFO - GET      /primes?limit=800                                                                560    28(5.00%) |   3328    1437    6545   3300 |    5.60        0.00
+2024-10-10 05:48:49,460 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:49,460 - INFO -          Aggregated                                                                       560    28(5.00%) |   3328    1437    6545   3300 |    5.60        0.00
+2024-10-10 05:48:49,461 - INFO - 
+2024-10-10 05:48:51,462 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:51,462 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:51,462 - INFO - GET      /primes?limit=800                                                                560    28(5.00%) |   3328    1437    6545   3300 |    5.60        0.00
+2024-10-10 05:48:51,462 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:51,462 - INFO -          Aggregated                                                                       560    28(5.00%) |   3328    1437    6545   3300 |    5.60        0.00
+2024-10-10 05:48:51,462 - INFO - 
+2024-10-10 05:48:53,463 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:53,464 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:53,464 - INFO - GET      /primes?limit=800                                                                560    28(5.00%) |   3328    1437    6545   3300 |    5.60        0.00
+2024-10-10 05:48:53,464 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:53,464 - INFO -          Aggregated                                                                       560    28(5.00%) |   3328    1437    6545   3300 |    5.60        0.00
+2024-10-10 05:48:53,464 - INFO - 
+2024-10-10 05:48:54,585 - INFO - Request /primes?limit=800 succeeded in 1994.25ms
+2024-10-10 05:48:54,585 - INFO - Request /primes?limit=800 succeeded in 1997.34ms
+2024-10-10 05:48:54,687 - INFO - Request /primes?limit=800 succeeded in 1900.72ms
+2024-10-10 05:48:54,688 - INFO - Request /primes?limit=800 succeeded in 1900.53ms
+2024-10-10 05:48:54,688 - INFO - Request /primes?limit=800 succeeded in 1803.67ms
+2024-10-10 05:48:54,787 - INFO - Request /primes?limit=800 succeeded in 2100.08ms
+2024-10-10 05:48:54,787 - INFO - Request /primes?limit=800 succeeded in 2099.91ms
+2024-10-10 05:48:54,788 - INFO - Request /primes?limit=800 succeeded in 2002.09ms
+2024-10-10 05:48:54,886 - INFO - Request /primes?limit=800 succeeded in 2201.75ms
+2024-10-10 05:48:54,887 - INFO - Request /primes?limit=800 succeeded in 2201.38ms
+2024-10-10 05:48:54,887 - INFO - Request /primes?limit=800 succeeded in 2200.95ms
+2024-10-10 05:48:54,912 - INFO - Request /primes?limit=800 succeeded in 2316.83ms
+2024-10-10 05:48:54,986 - INFO - Request /primes?limit=800 succeeded in 2391.54ms
+2024-10-10 05:48:54,986 - INFO - Request /primes?limit=800 succeeded in 2391.45ms
+2024-10-10 05:48:55,084 - INFO - Request /primes?limit=800 succeeded in 2490.89ms
+2024-10-10 05:48:55,087 - INFO - Request /primes?limit=800 succeeded in 2495.19ms
+2024-10-10 05:48:55,088 - INFO - Request /primes?limit=800 succeeded in 2494.97ms
+2024-10-10 05:48:55,112 - INFO - Request /primes?limit=800 succeeded in 2521.24ms
+2024-10-10 05:48:55,187 - INFO - Request /primes?limit=800 succeeded in 2598.00ms
+2024-10-10 05:48:55,187 - INFO - Request /primes?limit=800 succeeded in 2597.72ms
+2024-10-10 05:48:55,465 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:55,466 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:55,466 - INFO - GET      /primes?limit=800                                                                580    28(4.83%) |   3290    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:55,466 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:55,466 - INFO -          Aggregated                                                                       580    28(4.83%) |   3290    1437    6545   3200 |    4.00        0.00
+2024-10-10 05:48:55,466 - INFO - 
+2024-10-10 05:48:55,519 - INFO - Request /primes?limit=800 succeeded in 1733.70ms
+2024-10-10 05:48:55,528 - INFO - Request /primes?limit=800 succeeded in 1738.98ms
+2024-10-10 05:48:55,609 - INFO - Request /primes?limit=800 succeeded in 1820.70ms
+2024-10-10 05:48:55,619 - INFO - Request /primes?limit=800 succeeded in 1830.84ms
+2024-10-10 05:48:55,627 - INFO - Request /primes?limit=800 succeeded in 1840.61ms
+2024-10-10 05:48:55,708 - INFO - Request /primes?limit=800 succeeded in 1721.70ms
+2024-10-10 05:48:55,718 - INFO - Request /primes?limit=800 succeeded in 1731.82ms
+2024-10-10 05:48:55,727 - INFO - Request /primes?limit=800 succeeded in 1741.88ms
+2024-10-10 05:48:55,809 - INFO - Request /primes?limit=800 succeeded in 1824.57ms
+2024-10-10 05:48:55,818 - INFO - Request /primes?limit=800 succeeded in 1933.93ms
+2024-10-10 05:48:55,828 - INFO - Request /primes?limit=800 succeeded in 2036.75ms
+2024-10-10 05:48:55,909 - INFO - Request /primes?limit=800 succeeded in 1817.64ms
+2024-10-10 05:48:55,918 - INFO - Request /primes?limit=800 succeeded in 1827.49ms
+2024-10-10 05:48:55,927 - INFO - Request /primes?limit=800 succeeded in 1837.03ms
+2024-10-10 05:48:55,935 - INFO - Request /primes?limit=800 succeeded in 1846.82ms
+2024-10-10 05:48:56,017 - INFO - Request /primes?limit=800 succeeded in 1929.68ms
+2024-10-10 05:48:56,027 - INFO - Request /primes?limit=800 succeeded in 1939.76ms
+2024-10-10 05:48:56,035 - INFO - Request /primes?limit=800 succeeded in 1949.64ms
+2024-10-10 05:48:56,117 - INFO - Request /primes?limit=800 succeeded in 2032.19ms
+2024-10-10 05:48:56,125 - INFO - Request /primes?limit=800 succeeded in 2138.13ms
+2024-10-10 05:48:57,467 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:57,468 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:57,468 - INFO - GET      /primes?limit=800                                                                600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:48:57,468 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:57,468 - INFO -          Aggregated                                                                       600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:48:57,468 - INFO - 
+2024-10-10 05:48:59,470 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:48:59,470 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:59,470 - INFO - GET      /primes?limit=800                                                                600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:48:59,470 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:48:59,470 - INFO -          Aggregated                                                                       600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:48:59,471 - INFO - 
+2024-10-10 05:49:01,473 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:01,473 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:01,473 - INFO - GET      /primes?limit=800                                                                600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:01,473 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:01,473 - INFO -          Aggregated                                                                       600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:01,473 - INFO - 
+2024-10-10 05:49:03,474 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:03,475 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:03,475 - INFO - GET      /primes?limit=800                                                                600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:03,475 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:03,475 - INFO -          Aggregated                                                                       600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:03,475 - INFO - 
+2024-10-10 05:49:05,476 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:05,476 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:05,476 - INFO - GET      /primes?limit=800                                                                600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:05,476 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:05,476 - INFO -          Aggregated                                                                       600    28(4.67%) |   3242    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:05,476 - INFO - 
+2024-10-10 05:49:06,022 - INFO - Request /primes?limit=800 succeeded in 3433.21ms
+2024-10-10 05:49:06,031 - INFO - Request /primes?limit=800 succeeded in 3443.21ms
+2024-10-10 05:49:06,634 - INFO - Request /primes?limit=800 succeeded in 4044.85ms
+2024-10-10 05:49:06,716 - INFO - Request /primes?limit=800 succeeded in 4126.01ms
+2024-10-10 05:49:06,726 - INFO - Request /primes?limit=800 succeeded in 4133.62ms
+2024-10-10 05:49:06,735 - INFO - Request /primes?limit=800 succeeded in 4143.02ms
+2024-10-10 05:49:06,817 - INFO - Request /primes?limit=800 succeeded in 4225.57ms
+2024-10-10 05:49:06,825 - INFO - Request /primes?limit=800 succeeded in 4140.06ms
+2024-10-10 05:49:06,834 - INFO - Request /primes?limit=800 succeeded in 4149.40ms
+2024-10-10 05:49:06,916 - INFO - Request /primes?limit=800 succeeded in 4320.29ms
+2024-10-10 05:49:06,925 - INFO - Request /primes?limit=800 succeeded in 4330.04ms
+2024-10-10 05:49:06,933 - INFO - Request /primes?limit=800 succeeded in 4339.44ms
+2024-10-10 05:49:07,011 - INFO - Request /primes?limit=800 succeeded in 4417.33ms
+2024-10-10 05:49:07,020 - INFO - Request /primes?limit=800 succeeded in 4333.18ms
+2024-10-10 05:49:07,120 - INFO - Request /primes?limit=800 succeeded in 4434.22ms
+2024-10-10 05:49:07,129 - INFO - Request /primes?limit=800 succeeded in 4143.03ms
+2024-10-10 05:49:07,210 - INFO - Request /primes?limit=800 succeeded in 4224.90ms
+2024-10-10 05:49:07,220 - INFO - Request /primes?limit=800 succeeded in 4235.68ms
+2024-10-10 05:49:07,230 - INFO - Request /primes?limit=800 succeeded in 4342.44ms
+2024-10-10 05:49:07,312 - INFO - Request /primes?limit=800 succeeded in 4425.50ms
+2024-10-10 05:49:07,478 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:07,478 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:07,478 - INFO - GET      /primes?limit=800                                                                620    28(4.52%) |   3272    1437    6545   3200 |    2.60        0.00
+2024-10-10 05:49:07,478 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:07,478 - INFO -          Aggregated                                                                       620    28(4.52%) |   3272    1437    6545   3200 |    2.60        0.00
+2024-10-10 05:49:07,478 - INFO - 
+2024-10-10 05:49:08,325 - INFO - Request /primes?limit=800 succeeded in 4537.63ms
+2024-10-10 05:49:08,333 - INFO - Request /primes?limit=800 succeeded in 4547.20ms
+2024-10-10 05:49:08,415 - INFO - Request /primes?limit=800 succeeded in 4625.16ms
+2024-10-10 05:49:08,424 - INFO - Request /primes?limit=800 succeeded in 4635.36ms
+2024-10-10 05:49:08,433 - INFO - Request /primes?limit=800 succeeded in 4644.95ms
+2024-10-10 05:49:08,523 - INFO - Request /primes?limit=800 succeeded in 4635.70ms
+2024-10-10 05:49:08,531 - INFO - Request /primes?limit=800 succeeded in 4645.03ms
+2024-10-10 05:49:08,613 - INFO - Request /primes?limit=800 succeeded in 4727.41ms
+2024-10-10 05:49:08,622 - INFO - Request /primes?limit=800 succeeded in 4531.33ms
+2024-10-10 05:49:09,430 - INFO - Request /primes?limit=800 succeeded in 5342.29ms
+2024-10-10 05:49:09,479 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:09,479 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:09,479 - INFO - GET      /primes?limit=800                                                                630    28(4.44%) |   3295    1437    6545   3300 |    1.20        0.00
+2024-10-10 05:49:09,479 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:09,479 - INFO -          Aggregated                                                                       630    28(4.44%) |   3295    1437    6545   3300 |    1.20        0.00
+2024-10-10 05:49:09,479 - INFO - 
+2024-10-10 05:49:09,511 - INFO - Request /primes?limit=800 succeeded in 5422.42ms
+2024-10-10 05:49:09,520 - INFO - Request /primes?limit=800 succeeded in 5430.88ms
+2024-10-10 05:49:09,530 - INFO - Request /primes?limit=800 succeeded in 5439.69ms
+2024-10-10 05:49:09,611 - INFO - Request /primes?limit=800 succeeded in 5819.91ms
+2024-10-10 05:49:09,620 - INFO - Request /primes?limit=800 succeeded in 5732.49ms
+2024-10-10 05:49:09,630 - INFO - Request /primes?limit=800 succeeded in 5740.92ms
+2024-10-10 05:49:09,711 - INFO - Request /primes?limit=800 succeeded in 5921.27ms
+2024-10-10 05:49:09,721 - INFO - Request /primes?limit=800 succeeded in 5633.86ms
+2024-10-10 05:49:09,730 - INFO - Request /primes?limit=800 succeeded in 5644.00ms
+2024-10-10 05:49:09,811 - INFO - Request /primes?limit=800 succeeded in 5726.41ms
+2024-10-10 05:49:11,480 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:11,481 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:11,481 - INFO - GET      /primes?limit=800                                                                640    28(4.38%) |   3331    1437    6545   3300 |    1.20        0.00
+2024-10-10 05:49:11,481 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:11,481 - INFO -          Aggregated                                                                       640    28(4.38%) |   3331    1437    6545   3300 |    1.20        0.00
+2024-10-10 05:49:11,481 - INFO - 
+2024-10-10 05:49:13,482 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:13,482 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:13,482 - INFO - GET      /primes?limit=800                                                                640    28(4.38%) |   3331    1437    6545   3300 |    1.20        0.00
+2024-10-10 05:49:13,482 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:13,483 - INFO -          Aggregated                                                                       640    28(4.38%) |   3331    1437    6545   3300 |    1.20        0.00
+2024-10-10 05:49:13,483 - INFO - 
+2024-10-10 05:49:15,210 - INFO - Request /primes?limit=800 succeeded in 2622.91ms
+2024-10-10 05:49:15,219 - INFO - Request /primes?limit=800 succeeded in 2630.81ms
+2024-10-10 05:49:15,228 - INFO - Request /primes?limit=800 succeeded in 2638.86ms
+2024-10-10 05:49:15,237 - INFO - Request /primes?limit=800 succeeded in 2643.11ms
+2024-10-10 05:49:15,315 - INFO - Request /primes?limit=800 succeeded in 2720.93ms
+2024-10-10 05:49:15,323 - INFO - Request /primes?limit=800 succeeded in 2730.35ms
+2024-10-10 05:49:15,332 - INFO - Request /primes?limit=800 succeeded in 2739.69ms
+2024-10-10 05:49:15,413 - INFO - Request /primes?limit=800 succeeded in 2821.80ms
+2024-10-10 05:49:15,423 - INFO - Request /primes?limit=800 succeeded in 2831.92ms
+2024-10-10 05:49:15,484 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:15,484 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:15,484 - INFO - GET      /primes?limit=800                                                                649    28(4.31%) |   3323    1437    6545   3300 |    4.00        0.00
+2024-10-10 05:49:15,484 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:15,484 - INFO -          Aggregated                                                                       649    28(4.31%) |   3323    1437    6545   3300 |    4.00        0.00
+2024-10-10 05:49:15,484 - INFO - 
+2024-10-10 05:49:15,485 - INFO - Request /primes?limit=800 succeeded in 2894.62ms
+2024-10-10 05:49:15,514 - INFO - Request /primes?limit=800 succeeded in 2729.60ms
+2024-10-10 05:49:15,524 - INFO - Request /primes?limit=800 succeeded in 2736.67ms
+2024-10-10 05:49:15,533 - INFO - Request /primes?limit=800 succeeded in 2746.67ms
+2024-10-10 05:49:15,592 - INFO - Request /primes?limit=800 succeeded in 1803.60ms
+2024-10-10 05:49:15,593 - INFO - Request /primes?limit=800 succeeded in 1805.08ms
+2024-10-10 05:49:15,593 - INFO - Request /primes?limit=800 succeeded in 1806.49ms
+2024-10-10 05:49:15,594 - INFO - Request /primes?limit=800 succeeded in 1808.31ms
+2024-10-10 05:49:15,615 - INFO - Request /primes?limit=800 succeeded in 2829.23ms
+2024-10-10 05:49:15,685 - INFO - Request /primes?limit=800 succeeded in 2700.35ms
+2024-10-10 05:49:15,685 - INFO - Request /primes?limit=800 succeeded in 2699.95ms
+2024-10-10 05:49:15,714 - INFO - Request /primes?limit=800 succeeded in 2730.14ms
+2024-10-10 05:49:15,722 - INFO - Request /primes?limit=800 succeeded in 2835.69ms
+2024-10-10 05:49:15,784 - INFO - Request /primes?limit=800 succeeded in 2898.35ms
+2024-10-10 05:49:15,812 - INFO - Request /primes?limit=800 succeeded in 2928.28ms
+2024-10-10 05:49:16,118 - INFO - Request /primes?limit=800 succeeded in 2326.39ms
+2024-10-10 05:49:16,167 - INFO - Request /primes?limit=800 succeeded in 2376.16ms
+2024-10-10 05:49:16,176 - INFO - Request /primes?limit=800 succeeded in 2386.73ms
+2024-10-10 05:49:16,269 - INFO - Request /primes?limit=800 succeeded in 2184.27ms
+2024-10-10 05:49:16,278 - INFO - Request /primes?limit=800 succeeded in 2290.39ms
+2024-10-10 05:49:16,371 - INFO - Request /primes?limit=800 succeeded in 2384.84ms
+2024-10-10 05:49:16,379 - INFO - Request /primes?limit=800 succeeded in 2091.13ms
+2024-10-10 05:49:16,473 - INFO - Request /primes?limit=800 succeeded in 2185.32ms
+2024-10-10 05:49:16,566 - INFO - Request /primes?limit=800 succeeded in 2279.77ms
+2024-10-10 05:49:16,575 - INFO - Request /primes?limit=800 succeeded in 2289.98ms
+2024-10-10 05:49:16,672 - INFO - Request /primes?limit=800 succeeded in 2484.37ms
+2024-10-10 05:49:16,680 - INFO - Request /primes?limit=800 succeeded in 2494.08ms
+2024-10-10 05:49:16,774 - INFO - Request /primes?limit=800 succeeded in 2588.24ms
+2024-10-10 05:49:16,867 - INFO - Request /primes?limit=800 succeeded in 2682.48ms
+2024-10-10 05:49:16,876 - INFO - Request /primes?limit=800 succeeded in 2788.78ms
+2024-10-10 05:49:16,969 - INFO - Request /primes?limit=800 succeeded in 2883.10ms
+2024-10-10 05:49:17,485 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:17,485 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:17,485 - INFO - GET      /primes?limit=800                                                                680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:17,485 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:17,485 - INFO -          Aggregated                                                                       680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:17,485 - INFO - 
+2024-10-10 05:49:19,487 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:19,487 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:19,487 - INFO - GET      /primes?limit=800                                                                680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:19,487 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:19,487 - INFO -          Aggregated                                                                       680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:19,487 - INFO - 
+2024-10-10 05:49:21,489 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:21,489 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:21,489 - INFO - GET      /primes?limit=800                                                                680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:21,489 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:21,489 - INFO -          Aggregated                                                                       680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:21,489 - INFO - 
+2024-10-10 05:49:23,490 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:23,490 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:23,490 - INFO - GET      /primes?limit=800                                                                680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:23,490 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:23,490 - INFO -          Aggregated                                                                       680    32(4.71%) |   3284    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:49:23,490 - INFO - 
+2024-10-10 05:49:25,119 - INFO - Request /primes?limit=800 succeeded in 2531.27ms
+2024-10-10 05:49:25,128 - INFO - Request /primes?limit=800 succeeded in 2538.87ms
+2024-10-10 05:49:25,137 - INFO - Request /primes?limit=800 succeeded in 2548.45ms
+2024-10-10 05:49:25,214 - INFO - Request /primes?limit=800 succeeded in 2624.05ms
+2024-10-10 05:49:25,223 - INFO - Request /primes?limit=800 succeeded in 2629.87ms
+2024-10-10 05:49:25,232 - INFO - Request /primes?limit=800 succeeded in 2639.50ms
+2024-10-10 05:49:25,314 - INFO - Request /primes?limit=800 succeeded in 2721.50ms
+2024-10-10 05:49:25,323 - INFO - Request /primes?limit=800 succeeded in 2731.47ms
+2024-10-10 05:49:25,408 - INFO - Request /primes?limit=800 succeeded in 2817.27ms
+2024-10-10 05:49:25,417 - INFO - Request /primes?limit=800 succeeded in 2532.32ms
+2024-10-10 05:49:25,426 - INFO - Request /primes?limit=800 succeeded in 2541.96ms
+2024-10-10 05:49:25,434 - INFO - Request /primes?limit=800 succeeded in 2647.75ms
+2024-10-10 05:49:25,491 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:25,491 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:25,491 - INFO - GET      /primes?limit=800                                                                692    32(4.62%) |   3273    1437    6545   3100 |    4.00        0.40
+2024-10-10 05:49:25,491 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:25,491 - INFO -          Aggregated                                                                       692    32(4.62%) |   3273    1437    6545   3100 |    4.00        0.40
+2024-10-10 05:49:25,491 - INFO - 
+2024-10-10 05:49:25,511 - INFO - Request /primes?limit=800 succeeded in 2826.28ms
+2024-10-10 05:49:25,520 - INFO - Request /primes?limit=800 succeeded in 2836.18ms
+2024-10-10 05:49:25,529 - INFO - Request /primes?limit=800 succeeded in 2934.14ms
+2024-10-10 05:49:25,611 - INFO - Request /primes?limit=800 succeeded in 3015.91ms
+2024-10-10 05:49:25,620 - INFO - Request /primes?limit=800 succeeded in 3026.08ms
+2024-10-10 05:49:25,629 - INFO - Request /primes?limit=800 succeeded in 2742.32ms
+2024-10-10 05:49:25,711 - INFO - Request /primes?limit=800 succeeded in 2824.42ms
+2024-10-10 05:49:25,720 - INFO - Request /primes?limit=800 succeeded in 2834.18ms
+2024-10-10 05:49:26,035 - INFO - Request /primes?limit=800 succeeded in 2247.00ms
+2024-10-10 05:49:26,112 - INFO - Request /primes?limit=800 succeeded in 2325.53ms
+2024-10-10 05:49:26,121 - INFO - Request /primes?limit=800 succeeded in 2335.96ms
+2024-10-10 05:49:26,130 - INFO - Request /primes?limit=800 succeeded in 2340.90ms
+2024-10-10 05:49:26,211 - INFO - Request /primes?limit=800 succeeded in 2421.26ms
+2024-10-10 05:49:26,220 - INFO - Request /primes?limit=800 succeeded in 2335.16ms
+2024-10-10 05:49:26,229 - INFO - Request /primes?limit=800 succeeded in 2242.32ms
+2024-10-10 05:49:26,310 - INFO - Request /primes?limit=800 succeeded in 2422.42ms
+2024-10-10 05:49:26,319 - INFO - Request /primes?limit=800 succeeded in 2432.61ms
+2024-10-10 05:49:26,328 - INFO - Request /primes?limit=800 succeeded in 2442.05ms
+2024-10-10 05:49:26,409 - INFO - Request /primes?limit=800 succeeded in 2221.84ms
+2024-10-10 05:49:26,418 - INFO - Request /primes?limit=800 succeeded in 2231.53ms
+2024-10-10 05:49:26,426 - INFO - Request /primes?limit=800 succeeded in 2240.98ms
+2024-10-10 05:49:26,435 - INFO - Request /primes?limit=800 succeeded in 2250.51ms
+2024-10-10 05:49:26,516 - INFO - Request /primes?limit=800 succeeded in 2332.80ms
+2024-10-10 05:49:26,525 - INFO - Request /primes?limit=800 succeeded in 2438.55ms
+2024-10-10 05:49:26,534 - INFO - Request /primes?limit=800 succeeded in 2448.16ms
+2024-10-10 05:49:26,616 - INFO - Request /primes?limit=800 succeeded in 2530.57ms
+2024-10-10 05:49:26,625 - INFO - Request /primes?limit=800 succeeded in 2540.40ms
+2024-10-10 05:49:26,634 - INFO - Request /primes?limit=800 succeeded in 2646.77ms
+2024-10-10 05:49:27,492 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:27,492 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:27,492 - INFO - GET      /primes?limit=800                                                                720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:27,492 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:27,492 - INFO -          Aggregated                                                                       720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:27,492 - INFO - 
+2024-10-10 05:49:29,494 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:29,494 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:29,494 - INFO - GET      /primes?limit=800                                                                720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:29,494 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:29,494 - INFO -          Aggregated                                                                       720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:29,494 - INFO - 
+2024-10-10 05:49:31,496 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:31,496 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:31,496 - INFO - GET      /primes?limit=800                                                                720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:31,496 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:31,496 - INFO -          Aggregated                                                                       720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:31,496 - INFO - 
+2024-10-10 05:49:33,497 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:33,497 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:33,497 - INFO - GET      /primes?limit=800                                                                720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:33,497 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:33,497 - INFO -          Aggregated                                                                       720    32(4.44%) |   3243    1437    6545   3000 |    4.00        0.40
+2024-10-10 05:49:33,497 - INFO - 
+2024-10-10 05:49:35,074 - INFO - Request /primes?limit=800 succeeded in 2485.10ms
+2024-10-10 05:49:35,167 - INFO - Request /primes?limit=800 succeeded in 2579.31ms
+2024-10-10 05:49:35,176 - INFO - Request /primes?limit=800 succeeded in 2489.66ms
+2024-10-10 05:49:35,270 - INFO - Request /primes?limit=800 succeeded in 2584.21ms
+2024-10-10 05:49:35,279 - INFO - Request /primes?limit=800 succeeded in 2391.72ms
+2024-10-10 05:49:35,292 - INFO - Request /primes?limit=800 succeeded in 1506.41ms
+2024-10-10 05:49:35,373 - INFO - Request /primes?limit=800 succeeded in 2486.23ms
+2024-10-10 05:49:35,466 - INFO - Request /primes?limit=800 succeeded in 2580.31ms
+2024-10-10 05:49:35,476 - INFO - Request /primes?limit=800 succeeded in 2591.19ms
+2024-10-10 05:49:35,499 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:35,499 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:35,499 - INFO - GET      /primes?limit=800                                                                729    33(4.53%) |   3233    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:35,499 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:35,499 - INFO -          Aggregated                                                                       729    33(4.53%) |   3233    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:35,499 - INFO - 
+2024-10-10 05:49:35,574 - INFO - Request /primes?limit=800 succeeded in 2690.04ms
+2024-10-10 05:49:35,591 - INFO - Request /primes?limit=800 succeeded in 1800.58ms
+2024-10-10 05:49:35,592 - INFO - Request /primes?limit=800 succeeded in 1801.96ms
+2024-10-10 05:49:35,593 - INFO - Request /primes?limit=800 succeeded in 1803.18ms
+2024-10-10 05:49:35,593 - INFO - Request /primes?limit=800 succeeded in 1804.34ms
+2024-10-10 05:49:35,594 - INFO - Request /primes?limit=800 succeeded in 1805.55ms
+2024-10-10 05:49:35,594 - INFO - Request /primes?limit=800 succeeded in 1807.02ms
+2024-10-10 05:49:35,684 - INFO - Request /primes?limit=800 succeeded in 2998.91ms
+2024-10-10 05:49:35,685 - INFO - Request /primes?limit=800 succeeded in 3001.07ms
+2024-10-10 05:49:35,693 - INFO - Request /primes?limit=800 succeeded in 1802.17ms
+2024-10-10 05:49:35,694 - INFO - Request /primes?limit=800 succeeded in 1803.59ms
+2024-10-10 05:49:35,694 - INFO - Request /primes?limit=800 succeeded in 1804.85ms
+2024-10-10 05:49:35,695 - INFO - Request /primes?limit=800 succeeded in 1806.07ms
+2024-10-10 05:49:35,695 - INFO - Request /primes?limit=800 succeeded in 1807.30ms
+2024-10-10 05:49:35,784 - INFO - Request /primes?limit=800 succeeded in 1897.11ms
+2024-10-10 05:49:35,785 - INFO - Request /primes?limit=800 succeeded in 1898.99ms
+2024-10-10 05:49:35,787 - INFO - Request /primes?limit=800 succeeded in 3192.88ms
+2024-10-10 05:49:35,884 - INFO - Request /primes?limit=800 succeeded in 3289.01ms
+2024-10-10 05:49:35,885 - INFO - Request /primes?limit=800 succeeded in 1698.81ms
+2024-10-10 05:49:35,885 - INFO - Request /primes?limit=800 succeeded in 1700.04ms
+2024-10-10 05:49:35,886 - INFO - Request /primes?limit=800 succeeded in 1701.26ms
+2024-10-10 05:49:35,886 - INFO - Request /primes?limit=800 succeeded in 1799.06ms
+2024-10-10 05:49:35,887 - INFO - Request /primes?limit=800 succeeded in 1800.23ms
+2024-10-10 05:49:35,887 - INFO - Request /primes?limit=800 succeeded in 1801.65ms
+2024-10-10 05:49:35,986 - INFO - Request /primes?limit=800 succeeded in 3393.54ms
+2024-10-10 05:49:35,986 - INFO - Request /primes?limit=800 succeeded in 3393.34ms
+2024-10-10 05:49:35,987 - INFO - Request /primes?limit=800 succeeded in 3393.00ms
+2024-10-10 05:49:36,085 - INFO - Request /primes?limit=800 succeeded in 3492.79ms
+2024-10-10 05:49:36,168 - INFO - Request /primes?limit=800 succeeded in 3576.67ms
+2024-10-10 05:49:36,177 - INFO - Request /primes?limit=800 succeeded in 3586.99ms
+2024-10-10 05:49:36,271 - INFO - Request /primes?limit=800 succeeded in 3681.70ms
+2024-10-10 05:49:37,501 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:37,501 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:37,501 - INFO - GET      /primes?limit=800                                                                760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:37,501 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:37,501 - INFO -          Aggregated                                                                       760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:37,501 - INFO - 
+2024-10-10 05:49:39,504 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:39,504 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:39,504 - INFO - GET      /primes?limit=800                                                                760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:39,504 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:39,504 - INFO -          Aggregated                                                                       760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:39,504 - INFO - 
+2024-10-10 05:49:41,506 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:41,507 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:41,507 - INFO - GET      /primes?limit=800                                                                760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:41,507 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:41,507 - INFO -          Aggregated                                                                       760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:41,507 - INFO - 
+2024-10-10 05:49:43,508 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:43,508 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:43,508 - INFO - GET      /primes?limit=800                                                                760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:43,508 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:43,508 - INFO -          Aggregated                                                                       760    52(6.84%) |   3198    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:49:43,508 - INFO - 
+2024-10-10 05:49:44,388 - INFO - Request /primes?limit=800 succeeded in 1801.03ms
+2024-10-10 05:49:44,831 - INFO - Request /primes?limit=800 succeeded in 2241.73ms
+2024-10-10 05:49:44,912 - INFO - Request /primes?limit=800 succeeded in 2320.44ms
+2024-10-10 05:49:44,922 - INFO - Request /primes?limit=800 succeeded in 2330.56ms
+2024-10-10 05:49:44,931 - INFO - Request /primes?limit=800 succeeded in 2341.79ms
+2024-10-10 05:49:45,013 - INFO - Request /primes?limit=800 succeeded in 2424.96ms
+2024-10-10 05:49:45,022 - INFO - Request /primes?limit=800 succeeded in 2236.22ms
+2024-10-10 05:49:45,030 - INFO - Request /primes?limit=800 succeeded in 2245.77ms
+2024-10-10 05:49:45,112 - INFO - Request /primes?limit=800 succeeded in 2328.02ms
+2024-10-10 05:49:45,120 - INFO - Request /primes?limit=800 succeeded in 2433.44ms
+2024-10-10 05:49:45,129 - INFO - Request /primes?limit=800 succeeded in 2241.29ms
+2024-10-10 05:49:45,210 - INFO - Request /primes?limit=800 succeeded in 2323.70ms
+2024-10-10 05:49:45,219 - INFO - Request /primes?limit=800 succeeded in 2533.46ms
+2024-10-10 05:49:45,229 - INFO - Request /primes?limit=800 succeeded in 2633.65ms
+2024-10-10 05:49:45,310 - INFO - Request /primes?limit=800 succeeded in 2715.26ms
+2024-10-10 05:49:45,320 - INFO - Request /primes?limit=800 succeeded in 2726.23ms
+2024-10-10 05:49:45,330 - INFO - Request /primes?limit=800 succeeded in 2736.41ms
+2024-10-10 05:49:45,412 - INFO - Request /primes?limit=800 succeeded in 2819.37ms
+2024-10-10 05:49:45,421 - INFO - Request /primes?limit=800 succeeded in 2634.34ms
+2024-10-10 05:49:45,431 - INFO - Request /primes?limit=800 succeeded in 2644.44ms
+2024-10-10 05:49:45,509 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:45,509 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:45,510 - INFO - GET      /primes?limit=800                                                                780    52(6.67%) |   3179    1437    6545   2900 |    4.00        2.00
+2024-10-10 05:49:45,510 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:45,510 - INFO -          Aggregated                                                                       780    52(6.67%) |   3179    1437    6545   2900 |    4.00        2.00
+2024-10-10 05:49:45,510 - INFO - 
+2024-10-10 05:49:46,614 - INFO - Request /primes?limit=800 succeeded in 2826.93ms
+2024-10-10 05:49:46,624 - INFO - Request /primes?limit=800 succeeded in 2838.19ms
+2024-10-10 05:49:46,935 - INFO - Request /primes?limit=800 succeeded in 3144.52ms
+2024-10-10 05:49:47,017 - INFO - Request /primes?limit=800 succeeded in 3227.77ms
+2024-10-10 05:49:47,026 - INFO - Request /primes?limit=800 succeeded in 3238.12ms
+2024-10-10 05:49:47,108 - INFO - Request /primes?limit=800 succeeded in 3317.11ms
+2024-10-10 05:49:47,118 - INFO - Request /primes?limit=800 succeeded in 3233.38ms
+2024-10-10 05:49:47,127 - INFO - Request /primes?limit=800 succeeded in 3143.17ms
+2024-10-10 05:49:47,209 - INFO - Request /primes?limit=800 succeeded in 3223.60ms
+2024-10-10 05:49:47,218 - INFO - Request /primes?limit=800 succeeded in 3231.95ms
+2024-10-10 05:49:47,227 - INFO - Request /primes?limit=800 succeeded in 3240.20ms
+2024-10-10 05:49:47,308 - INFO - Request /primes?limit=800 succeeded in 3224.12ms
+2024-10-10 05:49:47,318 - INFO - Request /primes?limit=800 succeeded in 3232.79ms
+2024-10-10 05:49:47,328 - INFO - Request /primes?limit=800 succeeded in 3141.80ms
+2024-10-10 05:49:47,337 - INFO - Request /primes?limit=800 succeeded in 3152.07ms
+2024-10-10 05:49:47,414 - INFO - Request /primes?limit=800 succeeded in 3327.74ms
+2024-10-10 05:49:47,424 - INFO - Request /primes?limit=800 succeeded in 3337.86ms
+2024-10-10 05:49:47,433 - INFO - Request /primes?limit=800 succeeded in 3148.98ms
+2024-10-10 05:49:47,511 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:47,511 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:47,511 - INFO - GET      /primes?limit=800                                                                798    52(6.52%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:47,511 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:47,511 - INFO -          Aggregated                                                                       798    52(6.52%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:47,511 - INFO - 
+2024-10-10 05:49:47,515 - INFO - Request /primes?limit=800 succeeded in 3228.99ms
+2024-10-10 05:49:47,524 - INFO - Request /primes?limit=800 succeeded in 3238.69ms
+2024-10-10 05:49:49,513 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:49,513 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:49,513 - INFO - GET      /primes?limit=800                                                                800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:49,513 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:49,513 - INFO -          Aggregated                                                                       800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:49,513 - INFO - 
+2024-10-10 05:49:51,516 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:51,516 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:51,516 - INFO - GET      /primes?limit=800                                                                800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:51,516 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:51,516 - INFO -          Aggregated                                                                       800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:51,516 - INFO - 
+2024-10-10 05:49:53,517 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:53,517 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:53,517 - INFO - GET      /primes?limit=800                                                                800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:53,517 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:53,517 - INFO -          Aggregated                                                                       800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:53,517 - INFO - 
+2024-10-10 05:49:55,519 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:55,519 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:55,519 - INFO - GET      /primes?limit=800                                                                800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:55,519 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:55,519 - INFO -          Aggregated                                                                       800    52(6.50%) |   3179    1437    6545   3000 |    4.50        2.00
+2024-10-10 05:49:55,519 - INFO - 
+2024-10-10 05:49:56,429 - INFO - Request /primes?limit=800 succeeded in 3841.63ms
+2024-10-10 05:49:56,624 - INFO - Request /primes?limit=800 succeeded in 4035.74ms
+2024-10-10 05:49:56,633 - INFO - Request /primes?limit=800 succeeded in 4043.36ms
+2024-10-10 05:49:56,714 - INFO - Request /primes?limit=800 succeeded in 4123.54ms
+2024-10-10 05:49:56,724 - INFO - Request /primes?limit=800 succeeded in 4133.78ms
+2024-10-10 05:49:56,733 - INFO - Request /primes?limit=800 succeeded in 4140.98ms
+2024-10-10 05:49:56,814 - INFO - Request /primes?limit=800 succeeded in 4223.20ms
+2024-10-10 05:49:56,823 - INFO - Request /primes?limit=800 succeeded in 4230.25ms
+2024-10-10 05:49:56,832 - INFO - Request /primes?limit=800 succeeded in 4239.46ms
+2024-10-10 05:49:56,913 - INFO - Request /primes?limit=800 succeeded in 4227.95ms
+2024-10-10 05:49:56,922 - INFO - Request /primes?limit=800 succeeded in 4235.93ms
+2024-10-10 05:49:56,931 - INFO - Request /primes?limit=800 succeeded in 4244.00ms
+2024-10-10 05:49:56,939 - INFO - Request /primes?limit=800 succeeded in 4155.25ms
+2024-10-10 05:49:57,017 - INFO - Request /primes?limit=800 succeeded in 4232.05ms
+2024-10-10 05:49:57,026 - INFO - Request /primes?limit=800 succeeded in 4240.11ms
+2024-10-10 05:49:57,035 - INFO - Request /primes?limit=800 succeeded in 4150.56ms
+2024-10-10 05:49:57,116 - INFO - Request /primes?limit=800 succeeded in 4231.06ms
+2024-10-10 05:49:57,125 - INFO - Request /primes?limit=800 succeeded in 4239.17ms
+2024-10-10 05:49:57,133 - INFO - Request /primes?limit=800 succeeded in 4247.00ms
+2024-10-10 05:49:57,215 - INFO - Request /primes?limit=800 succeeded in 4327.83ms
+2024-10-10 05:49:57,520 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:57,521 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:57,521 - INFO - GET      /primes?limit=800                                                                820    52(6.34%) |   3203    1437    6545   3000 |    3.50        0.00
+2024-10-10 05:49:57,521 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:57,521 - INFO -          Aggregated                                                                       820    52(6.34%) |   3203    1437    6545   3000 |    3.50        0.00
+2024-10-10 05:49:57,521 - INFO - 
+2024-10-10 05:49:58,230 - INFO - Request /primes?limit=800 succeeded in 4442.48ms
+2024-10-10 05:49:58,312 - INFO - Request /primes?limit=800 succeeded in 4525.65ms
+2024-10-10 05:49:58,510 - INFO - Request /primes?limit=800 succeeded in 4624.86ms
+2024-10-10 05:49:58,519 - INFO - Request /primes?limit=800 succeeded in 4728.48ms
+2024-10-10 05:49:58,528 - INFO - Request /primes?limit=800 succeeded in 4643.87ms
+2024-10-10 05:49:59,121 - INFO - Request /primes?limit=800 succeeded in 5129.77ms
+2024-10-10 05:49:59,130 - INFO - Request /primes?limit=800 succeeded in 5046.04ms
+2024-10-10 05:49:59,211 - INFO - Request /primes?limit=800 succeeded in 5126.56ms
+2024-10-10 05:49:59,221 - INFO - Request /primes?limit=800 succeeded in 5135.18ms
+2024-10-10 05:49:59,230 - INFO - Request /primes?limit=800 succeeded in 5143.55ms
+2024-10-10 05:49:59,313 - INFO - Request /primes?limit=800 succeeded in 5328.69ms
+2024-10-10 05:49:59,322 - INFO - Request /primes?limit=800 succeeded in 5336.68ms
+2024-10-10 05:49:59,331 - INFO - Request /primes?limit=800 succeeded in 5343.75ms
+2024-10-10 05:49:59,412 - INFO - Request /primes?limit=800 succeeded in 5423.94ms
+2024-10-10 05:49:59,420 - INFO - Request /primes?limit=800 succeeded in 5432.13ms
+2024-10-10 05:49:59,429 - INFO - Request /primes?limit=800 succeeded in 5439.88ms
+2024-10-10 05:49:59,510 - INFO - Request /primes?limit=800 succeeded in 5520.26ms
+2024-10-10 05:49:59,519 - INFO - Request /primes?limit=800 succeeded in 5730.60ms
+2024-10-10 05:49:59,522 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:49:59,522 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:59,522 - INFO - GET      /primes?limit=800                                                                838    52(6.21%) |   3244    1437    6545   3100 |    3.00        0.00
+2024-10-10 05:49:59,522 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:49:59,522 - INFO -          Aggregated                                                                       838    52(6.21%) |   3244    1437    6545   3100 |    3.00        0.00
+2024-10-10 05:49:59,522 - INFO - 
+2024-10-10 05:49:59,529 - INFO - Request /primes?limit=800 succeeded in 5738.76ms
+2024-10-10 05:49:59,611 - INFO - Request /primes?limit=800 succeeded in 5620.13ms
+2024-10-10 05:50:01,524 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:01,524 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:01,524 - INFO - GET      /primes?limit=800                                                                840    52(6.19%) |   3250    1437    6545   3100 |    3.00        0.00
+2024-10-10 05:50:01,524 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:01,524 - INFO -          Aggregated                                                                       840    52(6.19%) |   3250    1437    6545   3100 |    3.00        0.00
+2024-10-10 05:50:01,524 - INFO - 
+2024-10-10 05:50:03,526 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:03,526 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:03,526 - INFO - GET      /primes?limit=800                                                                840    52(6.19%) |   3250    1437    6545   3100 |    3.00        0.00
+2024-10-10 05:50:03,526 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:03,526 - INFO -          Aggregated                                                                       840    52(6.19%) |   3250    1437    6545   3100 |    3.00        0.00
+2024-10-10 05:50:03,526 - INFO - 
+2024-10-10 05:50:05,058 - INFO - Request /primes?limit=800 succeeded in 2273.41ms
+2024-10-10 05:50:05,072 - INFO - Request /primes?limit=800 succeeded in 2287.87ms
+2024-10-10 05:50:05,165 - INFO - Request /primes?limit=800 succeeded in 2478.47ms
+2024-10-10 05:50:05,175 - INFO - Request /primes?limit=800 succeeded in 2488.89ms
+2024-10-10 05:50:05,269 - INFO - Request /primes?limit=800 succeeded in 2583.04ms
+2024-10-10 05:50:05,366 - INFO - Request /primes?limit=800 succeeded in 2681.62ms
+2024-10-10 05:50:05,376 - INFO - Request /primes?limit=800 succeeded in 2391.45ms
+2024-10-10 05:50:05,469 - INFO - Request /primes?limit=800 succeeded in 2582.22ms
+2024-10-10 05:50:05,478 - INFO - Request /primes?limit=800 succeeded in 2592.26ms
+2024-10-10 05:50:05,527 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:05,527 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:05,527 - INFO - GET      /primes?limit=800                                                                849    52(6.12%) |   3242    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:05,527 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:05,527 - INFO -          Aggregated                                                                       849    52(6.12%) |   3242    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:05,527 - INFO - 
+2024-10-10 05:50:05,572 - INFO - Request /primes?limit=800 succeeded in 2888.33ms
+2024-10-10 05:50:05,666 - INFO - Request /primes?limit=800 succeeded in 3071.06ms
+2024-10-10 05:50:05,675 - INFO - Request /primes?limit=800 succeeded in 3080.91ms
+2024-10-10 05:50:05,769 - INFO - Request /primes?limit=800 succeeded in 3175.32ms
+2024-10-10 05:50:05,778 - INFO - Request /primes?limit=800 succeeded in 3185.47ms
+2024-10-10 05:50:05,872 - INFO - Request /primes?limit=800 succeeded in 3280.00ms
+2024-10-10 05:50:05,966 - INFO - Request /primes?limit=800 succeeded in 3374.51ms
+2024-10-10 05:50:05,976 - INFO - Request /primes?limit=800 succeeded in 3384.77ms
+2024-10-10 05:50:06,073 - INFO - Request /primes?limit=800 succeeded in 3483.45ms
+2024-10-10 05:50:06,167 - INFO - Request /primes?limit=800 succeeded in 3578.38ms
+2024-10-10 05:50:06,176 - INFO - Request /primes?limit=800 succeeded in 3588.49ms
+2024-10-10 05:50:06,873 - INFO - Request /primes?limit=800 succeeded in 3087.60ms
+2024-10-10 05:50:06,967 - INFO - Request /primes?limit=800 succeeded in 3176.98ms
+2024-10-10 05:50:06,976 - INFO - Request /primes?limit=800 succeeded in 3186.71ms
+2024-10-10 05:50:07,073 - INFO - Request /primes?limit=800 succeeded in 3285.30ms
+2024-10-10 05:50:07,167 - INFO - Request /primes?limit=800 succeeded in 3379.97ms
+2024-10-10 05:50:07,176 - INFO - Request /primes?limit=800 succeeded in 3385.21ms
+2024-10-10 05:50:07,270 - INFO - Request /primes?limit=800 succeeded in 3384.22ms
+2024-10-10 05:50:07,279 - INFO - Request /primes?limit=800 succeeded in 3389.75ms
+2024-10-10 05:50:07,373 - INFO - Request /primes?limit=800 succeeded in 3484.60ms
+2024-10-10 05:50:07,467 - INFO - Request /primes?limit=800 succeeded in 3579.38ms
+2024-10-10 05:50:07,477 - INFO - Request /primes?limit=800 succeeded in 3590.01ms
+2024-10-10 05:50:07,529 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:07,529 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:07,529 - INFO - GET      /primes?limit=800                                                                871    52(5.97%) |   3244    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:50:07,529 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:07,529 - INFO -          Aggregated                                                                       871    52(5.97%) |   3244    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:50:07,529 - INFO - 
+2024-10-10 05:50:07,571 - INFO - Request /primes?limit=800 succeeded in 3485.90ms
+2024-10-10 05:50:07,669 - INFO - Request /primes?limit=800 succeeded in 3581.49ms
+2024-10-10 05:50:07,678 - INFO - Request /primes?limit=800 succeeded in 3591.74ms
+2024-10-10 05:50:07,772 - INFO - Request /primes?limit=800 succeeded in 3586.23ms
+2024-10-10 05:50:07,866 - INFO - Request /primes?limit=800 succeeded in 3681.11ms
+2024-10-10 05:50:07,875 - INFO - Request /primes?limit=800 succeeded in 3589.98ms
+2024-10-10 05:50:07,969 - INFO - Request /primes?limit=800 succeeded in 3685.12ms
+2024-10-10 05:50:07,978 - INFO - Request /primes?limit=800 succeeded in 3791.81ms
+2024-10-10 05:50:08,071 - INFO - Request /primes?limit=800 succeeded in 3785.13ms
+2024-10-10 05:50:09,531 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:09,531 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:09,532 - INFO - GET      /primes?limit=800                                                                880    52(5.91%) |   3248    1437    6545   3100 |    5.70        0.00
+2024-10-10 05:50:09,532 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:09,532 - INFO -          Aggregated                                                                       880    52(5.91%) |   3248    1437    6545   3100 |    5.70        0.00
+2024-10-10 05:50:09,532 - INFO - 
+2024-10-10 05:50:11,533 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:11,533 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:11,533 - INFO - GET      /primes?limit=800                                                                880    52(5.91%) |   3248    1437    6545   3100 |    5.70        0.00
+2024-10-10 05:50:11,533 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:11,533 - INFO -          Aggregated                                                                       880    52(5.91%) |   3248    1437    6545   3100 |    5.70        0.00
+2024-10-10 05:50:11,533 - INFO - 
+2024-10-10 05:50:13,534 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:13,534 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:13,534 - INFO - GET      /primes?limit=800                                                                880    52(5.91%) |   3248    1437    6545   3100 |    5.70        0.00
+2024-10-10 05:50:13,534 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:13,535 - INFO -          Aggregated                                                                       880    52(5.91%) |   3248    1437    6545   3100 |    5.70        0.00
+2024-10-10 05:50:13,535 - INFO - 
+2024-10-10 05:50:14,685 - INFO - Request /primes?limit=800 succeeded in 1999.21ms
+2024-10-10 05:50:14,685 - INFO - Request /primes?limit=800 succeeded in 1999.04ms
+2024-10-10 05:50:14,686 - INFO - Request /primes?limit=800 succeeded in 1998.65ms
+2024-10-10 05:50:14,686 - INFO - Request /primes?limit=800 succeeded in 1901.74ms
+2024-10-10 05:50:14,686 - INFO - Request /primes?limit=800 succeeded in 2094.41ms
+2024-10-10 05:50:14,686 - INFO - Request /primes?limit=800 succeeded in 2096.85ms
+2024-10-10 05:50:14,687 - INFO - Request /primes?limit=800 succeeded in 2096.28ms
+2024-10-10 05:50:14,687 - INFO - Request /primes?limit=800 succeeded in 2095.76ms
+2024-10-10 05:50:14,687 - INFO - Request /primes?limit=800 succeeded in 2098.53ms
+2024-10-10 05:50:14,885 - INFO - Request /primes?limit=800 succeeded in 2099.66ms
+2024-10-10 05:50:14,885 - INFO - Request /primes?limit=800 succeeded in 2098.31ms
+2024-10-10 05:50:14,886 - INFO - Request /primes?limit=800 succeeded in 2001.44ms
+2024-10-10 05:50:14,886 - INFO - Request /primes?limit=800 succeeded in 2000.84ms
+2024-10-10 05:50:14,886 - INFO - Request /primes?limit=800 succeeded in 2000.34ms
+2024-10-10 05:50:14,886 - INFO - Request /primes?limit=800 succeeded in 2293.61ms
+2024-10-10 05:50:14,887 - INFO - Request /primes?limit=800 succeeded in 2293.10ms
+2024-10-10 05:50:14,887 - INFO - Request /primes?limit=800 succeeded in 2292.67ms
+2024-10-10 05:50:14,887 - INFO - Request /primes?limit=800 succeeded in 2292.20ms
+2024-10-10 05:50:14,887 - INFO - Request /primes?limit=800 succeeded in 2203.37ms
+2024-10-10 05:50:14,984 - INFO - Request /primes?limit=800 succeeded in 2298.85ms
+2024-10-10 05:50:15,442 - INFO - Request /primes?limit=800 succeeded in 1654.64ms
+2024-10-10 05:50:15,451 - INFO - Request /primes?limit=800 succeeded in 1665.11ms
+2024-10-10 05:50:15,536 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:15,536 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:15,536 - INFO - GET      /primes?limit=800                                                                902    52(5.76%) |   3219    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:50:15,536 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:15,536 - INFO -          Aggregated                                                                       902    52(5.76%) |   3219    1437    6545   3100 |    4.00        0.00
+2024-10-10 05:50:15,536 - INFO - 
+2024-10-10 05:50:15,588 - INFO - Request /primes?limit=800 succeeded in 1703.06ms
+2024-10-10 05:50:15,598 - INFO - Request /primes?limit=800 succeeded in 1713.11ms
+2024-10-10 05:50:15,607 - INFO - Request /primes?limit=800 succeeded in 1815.63ms
+2024-10-10 05:50:15,686 - INFO - Request /primes?limit=800 succeeded in 1896.67ms
+2024-10-10 05:50:15,686 - INFO - Request /primes?limit=800 succeeded in 1896.00ms
+2024-10-10 05:50:15,787 - INFO - Request /primes?limit=800 succeeded in 1800.91ms
+2024-10-10 05:50:15,796 - INFO - Request /primes?limit=800 succeeded in 1810.24ms
+2024-10-10 05:50:15,812 - INFO - Request /primes?limit=800 succeeded in 1827.94ms
+2024-10-10 05:50:15,822 - INFO - Request /primes?limit=800 succeeded in 1637.24ms
+2024-10-10 05:50:15,885 - INFO - Request /primes?limit=800 succeeded in 1701.00ms
+2024-10-10 05:50:15,914 - INFO - Request /primes?limit=800 succeeded in 1827.05ms
+2024-10-10 05:50:15,923 - INFO - Request /primes?limit=800 succeeded in 1837.17ms
+2024-10-10 05:50:15,932 - INFO - Request /primes?limit=800 succeeded in 1847.14ms
+2024-10-10 05:50:16,014 - INFO - Request /primes?limit=800 succeeded in 1929.79ms
+2024-10-10 05:50:16,024 - INFO - Request /primes?limit=800 succeeded in 2036.46ms
+2024-10-10 05:50:16,033 - INFO - Request /primes?limit=800 succeeded in 2046.31ms
+2024-10-10 05:50:16,115 - INFO - Request /primes?limit=800 succeeded in 1928.49ms
+2024-10-10 05:50:16,123 - INFO - Request /primes?limit=800 succeeded in 1936.45ms
+2024-10-10 05:50:17,537 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:17,538 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:17,538 - INFO - GET      /primes?limit=800                                                                920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:17,538 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:17,538 - INFO -          Aggregated                                                                       920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:17,538 - INFO - 
+2024-10-10 05:50:19,539 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:19,539 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:19,540 - INFO - GET      /primes?limit=800                                                                920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:19,540 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:19,540 - INFO -          Aggregated                                                                       920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:19,540 - INFO - 
+2024-10-10 05:50:21,541 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:21,541 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:21,541 - INFO - GET      /primes?limit=800                                                                920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:21,542 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:21,542 - INFO -          Aggregated                                                                       920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:21,542 - INFO - 
+2024-10-10 05:50:22,586 - INFO - --run-time limit reached, shutting down
+2024-10-10 05:50:24,284 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:24,284 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:24,285 - INFO - GET      /primes?limit=800                                                                920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:24,285 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:24,285 - INFO -          Aggregated                                                                       920    52(5.65%) |   3192    1437    6545   3000 |    4.00        0.00
+2024-10-10 05:50:24,285 - INFO - 
+2024-10-10 05:50:24,485 - INFO - Shutting down (exit code 1)
+2024-10-10 05:50:24,486 - INFO - Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+2024-10-10 05:50:24,486 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:24,486 - INFO - GET      /primes?limit=800                                                                920    52(5.65%) |   3192    1437    6545   3000 |    4.12        0.23
+2024-10-10 05:50:24,486 - INFO - --------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+2024-10-10 05:50:24,486 - INFO -          Aggregated                                                                       920    52(5.65%) |   3192    1437    6545   3000 |    4.12        0.23
+2024-10-10 05:50:24,486 - INFO - 
+2024-10-10 05:50:24,486 - INFO - Response time percentiles (approximated)
+2024-10-10 05:50:24,487 - INFO - Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+2024-10-10 05:50:24,487 - INFO - --------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+2024-10-10 05:50:24,487 - INFO - GET      /primes?limit=800                                                                    3000   3600   4000   4200   4600   5400   5700   5800   6500   6500   6500    920
+2024-10-10 05:50:24,487 - INFO - --------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+2024-10-10 05:50:24,487 - INFO -          Aggregated                                                                           3000   3600   4000   4200   4600   5400   5700   5800   6500   6500   6500    920
+2024-10-10 05:50:24,487 - INFO - 
+2024-10-10 05:50:24,487 - INFO - Error report
+2024-10-10 05:50:24,487 - INFO - # occurrences      Error                                                                                               
+2024-10-10 05:50:24,487 - INFO - ------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+2024-10-10 05:50:24,487 - INFO - 52                 GET /primes?limit=800: ConnectionResetError(104, 'Connection reset by peer')                        
+2024-10-10 05:50:24,487 - INFO - ------------------|---------------------------------------------------------------------------------------------------------------------------------------------
+2024-10-10 05:50:24,487 - INFO - 

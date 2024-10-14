@@ -1,0 +1,3 @@
+#!/bin/sh
+docker build -f Dockerfile.cpn.nodev2 -t cpn_node:800 --build-arg "HTTP_PROXY=http://10.129.12.182:7890" --build-arg "HTTPS_PROXY=http://10.129.12.182:7890" --build-arg BASE_IMAGE=ubuntu:trusty .
+docker build -f Dockerfile.prime.app -t prime_app:latest --build-arg "HTTP_PROXY=http://10.129.12.182:7890" --build-arg "HTTPS_PROXY=http://10.129.12.182:7890" --build-arg BASE_IMAGE=python:3.10-slim .
