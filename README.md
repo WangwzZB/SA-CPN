@@ -156,11 +156,11 @@ sudo python3 containernet_expr.py
 ```
 
 ## 3.3 Other Common Commands
-# View switch flow tables
-sudo ovs-ofctl dump-flows -O OpenFlow13 switchA1
-# View container resource statistics
-docker stats
-# Enter the docker directory to update the container
-docker build -f Dockerfile
+- View switch flow tables
+`sudo ovs-ofctl dump-flows -O OpenFlow13 switchA1`
+- View container resource statistics
+`docker stats`
+- Enter the docker directory to update the container
+`docker build -f Dockerfile`
 
 
